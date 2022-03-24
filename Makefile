@@ -36,6 +36,10 @@ down:
 backup-site:
 	bash scripts/backup_site_libairterre.sh
 
+package-helm:
+	helm package --destination helm/ helm/
+	helm repo index helm/
+
 install-mkcert:
 	sudo apt install --yes libnss3-tools
 	sudo wget -O /usr/local/bin/mkcert "https://github.com/FiloSottile/mkcert/releases/download/v1.4.3/mkcert-v1.4.3-linux-amd64" && chmod +x /usr/local/bin/mkcert
