@@ -1,0 +1,43 @@
+version: "3.0"
+
+# --------------------------- #
+#          SERVICES           #
+# --------------------------- #
+
+services:
+  libairterre:
+    build: .
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      # libairterre site code
+      - ./httpd/www:/var/www
+      # ssl files
+      - ./httpd/certificates:/etc/apache2/certificates
+      # apache configuration file
+      - ./httpd/vhost.conf:/etc/apache2/sites-available/000-default.conf
+    networks:
+      - libairterre
+
+  mariadb:
+    image: mariadb:10.5.1
+    hostname: db.libairterre.local
+    environment:
+      MYSQL_DATABASE: libairtewhphy
+      MYSQL_ROOT_PASSWORD: libairteroot
+      MYSQL_USER: libairterre
+      MYSQL_PASSWORD: libairterre
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mariadb/16052021.sql:/docker-entrypoint-initdb.d/16052021.sql
+    networks:
+      - libairterre
+
+# --------------------------- #
+#           NETWORKS          #
+# --------------------------- #
+
+networks:
+  libairterre:
