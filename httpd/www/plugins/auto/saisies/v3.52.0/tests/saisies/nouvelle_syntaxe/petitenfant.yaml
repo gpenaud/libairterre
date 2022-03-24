@@ -1,0 +1,12 @@
+titre: 'titi'
+description: 'titi_description'
+heritage:
+  parent: 'enfant_pasfusion'
+defaut:
+  options:
+    readonly: 'on'
+    label: 'titi'
+  verifier:
+    type: 'toto'
+    options:
+      normaliser: false

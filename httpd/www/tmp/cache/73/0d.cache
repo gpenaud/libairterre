@@ -1,0 +1,71 @@
+a:2:{s:9:"nom_cache";s:38:"730d86384355d5ac8794fc9b7349784b.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_231ada33246e9221f90a0004eb4dea66";s:6:"source";s:47:"plugins/html5up_editorial/content/rubrique.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"730d86384355d5ac8794fc9b7349784b.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:3749:"
+<section>
+	<header class="main">
+		<h1 class="">Une organisation structurée</h1>
+	</header>
+
+	<div class="texte "><p>Le Lib&#8217;Air&#8217;Terre se veut une structure protéiforme, accueillant plusieurs types de projets, et assez souple pour proposer des activités à des publics différents.</p>
+<h3 class="spip">Les oasis</h3>
+<p>Le projet se distingue donc en deux types d&#8217;oasis différents&nbsp;:</p>
+<p><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;L&#8217;oasis de vie&nbsp;: regroupe les projets liés aux habitants du lieu
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;L&#8217;oasis ressources&nbsp;: met à disposition de l&#8217;extérieur moyens et infrastructures diverses.</p>
+<p>Pour plus d&#8217;informations, vous pouvez consulter cette <a href="c-est-quoi/un-oasis-de-vie-31/" class='spip_in'>rubrique</a></p>
+<h3 class="spip">La structuration juridique</h3>
+<p>Juridiquement, le Lib&#8217;Air&#8217;Terre se structure autour de <a href="c-est-quoi/des-oasis/article/la-structure-juridique-du-lib-air-terre" class='spip_in'>trois entités, indépendantes et  complémentaires</a>&nbsp;:</p>
+<p><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;La société civile immobilière (SCI) "Les Fées Lib"
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;L&#8217;association "Les Âmes d&#8217;Air"
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;La coopérative "Les Arts Terre"</p>
+<p>Pour plus d&#8217;informations sur l&#8217;organisation administrative du projet, veuillez contacter Jacques Grolleau à travers le formulaire de contact.</p></div>
+	
+
+	<?php echo recuperer_fond( 'inclure/documents', array_merge(array (
+  'id_rubrique' => '32',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 16:05:05',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:05:05',
+  'date_redac_default' => true,
+  'id_secteur' => '2',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '32',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',10,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+
+
+
+<section>
+	<?php echo recuperer_fond( 'inclure/liste/articles', array_merge(array (
+  'id_rubrique' => '32',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 16:05:05',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:05:05',
+  'date_redac_default' => true,
+  'id_secteur' => '2',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '32',
+	'parpage' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',27,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+<section>
+	<?php echo recuperer_fond( 'inclure/liste/rubriques', array_merge(array (
+  'id_rubrique' => '32',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 16:05:05',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:05:05',
+  'date_redac_default' => true,
+  'id_secteur' => '2',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '32',
+	'parpage' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',30,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:11:"id_rubrique";s:2:"32";s:9:"type-page";s:8:"rubrique";s:4:"date";s:19:"2022-03-24 16:05:05";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 16:05:05";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:1:"2";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1648137904;s:2:"gz";b:0;s:3:"sig";i:2431637745;}}

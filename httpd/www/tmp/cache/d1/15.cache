@@ -1,0 +1,17 @@
+a:2:{s:9:"nom_cache";s:38:"d115ba656dbffc759d3c6c088fd8473d.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_39728d727b0d124c946046d33b8146e1";s:6:"source";s:38:"plugins/html5up_editorial/article.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"d115ba656dbffc759d3c6c088fd8473d.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:551:"
+<?php echo recuperer_fond( 'structure', array_merge(array (
+  'id_rubrique' => '6',
+  'id_article' => '104',
+  'type-page' => 'article',
+  'date' => '2022-03-24 16:25:58',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:25:58',
+  'date_redac_default' => true,
+),array('id_rubrique' => '6',
+	'id_secteur' => '6',
+	'type-page' => 'article',
+	'composition' => '',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/article.html','html_39728d727b0d124c946046d33b8146e1','',2,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:11:"id_rubrique";s:1:"6";s:10:"id_article";s:3:"104";s:9:"type-page";s:7:"article";s:4:"date";s:19:"2022-03-24 16:25:58";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 16:25:58";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1648139158;s:2:"gz";b:0;s:3:"sig";i:3063079681;}}

@@ -1,0 +1,24 @@
+[(#AUTORISER{voir,_pages}|sinon_interdire_acces)]
+<h1 class="grostitre"><:pages:toutes_les_pages:></h1>
+
+#SET{statuts,#SESSION{statut}|statuts_articles_visibles}
+[(#ENV{id_auteur,''}|=={#SESSION{id_auteur}}|oui)
+	#SET{statuts,#GET{statuts}|array_merge{#LISTE{prepa}}}
+]
+<INCLURE{fond=prive/objets/liste/pages,
+	id_rubrique=-1,
+	statut=#GET{statuts},
+	id_auteur=#ENV{id_auteur,''},
+	nb=30,
+	titre=<:pages:toutes_les_pages:>,
+	sinon=<:pages:aucune_page:>,
+	env,
+	ajax}>
+
+[(#AUTORISER{creer,page})
+	[(#URL_ECRIRE{article_edit}
+			|parametre_url{modele,page}
+			|parametre_url{new,oui}
+			|parametre_url{id_rubrique,-1}
+			|icone_verticale{<:pages:creer_page:>,page,new,right})]
+]

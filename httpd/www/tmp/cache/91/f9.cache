@@ -1,0 +1,9 @@
+a:2:{s:9:"nom_cache";s:38:"91f9747206c221feda07b7d1cc754eee.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_c62d5b18ded70b7a44ecd3025fd27850";s:6:"source";s:56:"plugins/auto/fullcalendar_facile/v2.5.2/agenda.json.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"91f9747206c221feda07b7d1cc754eee.cache";}s:7:"entetes";a:2:{s:12:"Content-Type";s:30:"application/json;charset=utf-8";s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:197:"[
+	
+	
+
+
+
+{"id":"5","title":"stage de chant","allDay":true,"start":"2021-05-29 00:00:00","end":"2021-05-31 00:00:00","url":"c-est-quand\/l-agenda\/article\/agenda-des-activites","description":""}
+]
+";s:5:"notes";s:0:"";s:8:"contexte";a:8:{s:5:"start";s:1:"0";s:3:"end";s:10:"2147483647";s:1:"_";i:1648133566;s:4:"lang";s:2:"fr";s:4:"date";s:19:"2022-03-24 14:52:46";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 14:52:46";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1648133566;s:2:"gz";b:0;s:3:"sig";i:3144809896;}}

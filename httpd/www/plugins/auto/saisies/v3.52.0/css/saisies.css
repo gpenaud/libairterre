@@ -1,0 +1,112 @@
+/* Dans l'espace privé, afficher les labels des vues de Saisies */
+#wysiwyg .afficher .label{ display:block; }
+
+/* Correction d'un bug de navigateur. On l'ajoute là pour tout le monde, c'est gentil. https://stackoverflow.com/a/17863685 */
+fieldset {
+	min-width:0;
+}
+
+.fieldset.pliable > fieldset > .legend{
+	cursor:pointer;
+}
+
+.fieldset.pliable:not(.plie) > fieldset > .legend span:before{
+	content: '▸ ';
+}
+
+[dir='rtl'] .fieldset.pliable:not(.plie) > fieldset > .legend span:before{
+	content: '◂ ';
+}
+
+.fieldset.plie > fieldset > .legend span:before{
+	content: '▾ ';
+}
+
+/*date triple champs...
+	jour	mois	annee
+	/12/	/10/	/2010/
+*/
+.editer.saisie_date_jour_mois_annee .choix {
+	display: inline-block;
+	background-color:transparent;
+	padding:0;
+	border:0;
+}
+.saisie_date_jour_mois_annee .choix+.choix {margin-left:1em;}
+.saisie_date_jour_mois_annee .choix label{display:block; width:auto;}
+.saisie_date_jour_mois_annee .choix .text{width:auto;}
+
+
+/* avec crayons + formulaire de saisies, éviter un padding à gauche du label */
+.formulaire_crayon .editer-groupe .editer { padding-left:10px; }
+
+/* les étapes */
+.formulaire_spip .etapes__items {
+	list-style: none;
+}
+.formulaire_spip .etapes__item {
+	display: inline-block;
+}
+.formulaire_spip .etapes__item:not(:first-child):before {
+	content: ' → ';
+}
+
+/* Pour les saisies grilles, on s'arrange pour faire défiler si ça dépasse en largeur */
+.choix_grille_wrapper {
+	overflow-x: auto;
+}
+
+.formulaire_spip .editer .choix-groupe label,
+.formulaire_spip .editer .choix-groupe .label {
+	float: none;
+	margin-left: 0;
+	margin-bottom: 0.25em;
+	width: auto;
+}
+
+.formulaire_spip .editer .choix-groupe + .choix-groupe {
+	margin-top: 1em;
+}
+
+/* Base minimale des onglets des saisies fieldsets  */
+.saisies-menu-onglets {
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.15);
+}
+.saisies-menu-onglets__items {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.saisies-menu-onglets__item,
+.saisies-menu-onglets__lien {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.saisies-menu-onglets__lien {
+	-webkit-box-align: center;
+	   -ms-flex-align: center;
+	      align-items: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+.saisies-menu-onglets__lien.actif {
+	font-weight: bold;
+}
+.saisies-contenus-onglets fieldset {
+	margin-top: 0; /* pour la dist */
+}
+
+.afficher_si_masque_chargement {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,8 @@
+a:7:{s:6:"status";i:304;s:7:"headers";s:210:"Date: Thu, 24 Mar 2022 16:01:00 GMT
+Server: Apache/2.4.25 (Debian)
+Connection: close
+etag: "8bed-5d967a0a65dfe-gzip-gzip"
+Expires: Thu, 24 Mar 2022 16:11:00 GMT
+Cache-Control: max-age=600
+Vary: Accept-Encoding
+";s:4:"page";s:0:"";s:6:"length";i:0;s:13:"last_modified";i:0;s:8:"location";s:0:"";s:3:"url";s:40:"https://files.spip.net/spip/archives.xml";}

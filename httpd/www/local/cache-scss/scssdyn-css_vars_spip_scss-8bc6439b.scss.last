@@ -1,0 +1,14 @@
+/* #PRODUIRE{fond=css/vars_spip.scss}
+   md5:dbe8fe0af317ad6da3f4c2992fd40ab0 */
+// Palette.
+	$palette: (
+		bg:				#ffffff,
+		bg-alt:				#f5f6f7,
+		fg:				#7f888f,
+		fg-bold:			#3d4449,
+		fg-light:			#9fa3a6,
+		border:				rgba(210,215,217,0.75),
+		border-bg:			transparentize(#e6ebed, 0.75),
+		accent:				#7ab600
+	);
+	

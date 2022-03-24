@@ -1,0 +1,28 @@
+#ENV*{bloc_ancre}
+#SET{bornes,#ENV{page_courante}|bornes_pagination{#ENV{nombre_pages},5}}
+#SET{premiere, #GET{bornes}|reset}
+#SET{derniere, #GET{bornes}|end}
+#SET{pages,#GET{premiere}|range{#GET{derniere}}}
+
+<B_pages>
+<ul class="pagination">
+
+	[(#REM) Page 1 si plein de pages ensuite ]
+	[<li><a href="[(#ENV{url}|parametre_url{#ENV{debut},''}|ancre_url{#ENV{ancre}})]" class="page ajax" rel="nofollow">(#GET{premiere}|>{1}|?{1})</a></li>
+	<li><span>&hellip;</span></li>]
+
+	[(#REM) numéros de pages ]
+	<BOUCLE_pages(POUR){tableau #GET{pages}}>
+		[(#SET{item, #VALEUR|moins{1}|mult{#ENV{pas}} })]
+		<li>
+			<a href="[(#ENV{url}|parametre_url{#ENV{debut},#GET{item}|?{#GET{item}}}|ancre_url{#ENV{ancre}})]" class="page ajax[ (#VALEUR|=={#ENV{page_courante}}|oui)active]" rel="nofollow">#VALEUR</a>
+		</li>
+	</BOUCLE_pages>
+
+	[(#REM) Dernière page si plein de pages devant ]
+	[<li><span>&hellip;</span></li>
+	<li><a href="[(#ENV{url}|parametre_url{#ENV{debut},#ENV{nombre_pages}|moins{1}|mult{#ENV{pas}}}|ancre_url{#ENV{ancre}})]" class="page ajax" rel="nofollow">(#GET{derniere}|<{#ENV{nombre_pages}}|?{#ENV{nombre_pages}})</a></li>]
+
+</ul>
+</B_pages>
+

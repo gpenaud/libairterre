@@ -1,0 +1,23 @@
+<p class="copyright">
+	<BOUCLE_annee(ARTICLES){par date}{0,1}>[(#DATE|annee|!={#VAL{Y}|date}|oui)[(#DATE|annee)]]</BOUCLE_annee>-</B_annee>
+	[(#DATE|annee) ] &mdash; #NOM_SITE_SPIP | 
+	<a rel="contents" href="#URL_PAGE{plan}"><:plan_site:></a> | 
+	<?php
+if (isset($GLOBALS['visiteur_session']['id_auteur']) AND $GLOBALS['visiteur_session']['id_auteur']) {
+?>	<a href="#URL_LOGOUT" rel="nofollow"><:icone_deconnecter:></a> | 
+	<?php
+	if (include_spip('inc/autoriser') AND autoriser('ecrire')) {
+?>	<a href="#EVAL{_DIR_RESTREINT_ABS}"><:espace_prive:></a> | 
+	<?php
+	}
+} else {
+?>	<a href="[(#URL_PAGE{login}|parametre_url{url,#SELF|parametre_url{url,''}})]" rel="nofollow" class='login_modal'><:lien_connecter:></a> | 
+	<?php
+}
+?>	<a href="https://html5up.net/editorial" title="<:theme_graphique_par_html5up|attribut_html:>" class="spip_out">HTML5 UP</a> | 
+	<small class="generator">
+		<a href="https://www.spip.net/" rel="generator" title="<:site_realise_avec_spip|attribut_html:>" class="spip_out">
+			<INCLURE{fond=inclure/logospip} />
+		</a>
+	</small>
+</p>

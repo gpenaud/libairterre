@@ -1,0 +1,16 @@
+[(#REM) Rubriques trouvees ]
+<B_rubriques>
+	<div class="liste resultats rubriques">
+		#ANCRE_PAGINATION
+		<h2 class="h2">[(#ENV{titre}|sinon{<:rubriques:>}) ](#GRAND_TOTAL)</h2>
+		<ul class="liste-items">
+			<BOUCLE_rubriques(RUBRIQUES) {recherche}{id_secteur ?}{!par points}{pagination #ENV{pagination,5}}>
+			<li class="item">
+				<a href="#URL_RUBRIQUE">#TITRE</a>
+				[<p>(#INTRODUCTION{300}|ptobr)</p>]
+			</li>
+			</BOUCLE_rubriques>
+		</ul>
+		[<div class="pagination">(#PAGINATION)</div>]
+	</div>
+</B_rubriques>

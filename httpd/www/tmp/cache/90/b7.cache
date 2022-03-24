@@ -1,0 +1,5 @@
+a:2:{s:9:"nom_cache";s:38:"90b72ace3c6419957b7d7a0e51a56610.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_fdbf8701e8fbdf57d3d0d039eac9be0d";s:6:"source";s:42:"plugins/html5up_editorial/header/dist.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"90b72ace3c6419957b7d7a0e51a56610.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:340:"<div class="accueil">
+	 <a rel="start home" href="https://www.libairterre.fr/" title="Accueil"
+	><h1 id="logo_site_spip" class="logo"><img class='spip_logo_left' alt="" src="local/cache-vignettes/L50xH50/siteon0-e6171.jpg?1648115601" width='50' height='50' /> <span class="nom_site_spip ">Lib&#8217;Air&#8217;Terre</span>
+	</h1> </a>
+</div>";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:11:"id_rubrique";s:2:"30";s:9:"type-page";s:8:"rubrique";s:4:"date";s:19:"2022-03-24 14:53:00";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 14:53:00";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:1:"2";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1648133579;s:2:"gz";b:0;s:3:"sig";i:1517089039;}}

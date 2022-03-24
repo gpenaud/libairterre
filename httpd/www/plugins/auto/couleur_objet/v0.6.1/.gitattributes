@@ -1,0 +1,21 @@
+* text=auto !eol
+/REGLES_DE_COMMIT.md -text
+/TODO.md -text
+base/couleur_objet.php -text
+/couleur_objet_administrations.php -text
+/couleur_objet_fonctions.php -text
+/couleur_objet_pipelines.php -text
+demo/couleur_objet.html -text
+demo/couleur_objet_erreurs.html -text
+formulaires/configurer_couleur_objet.html -text
+formulaires/couleur_objet.html -text
+formulaires/couleur_objet.php -text
+img/couleur_objet-24.png -text
+img/couleur_objet-32.png -text
+img/couleur_objet-64.png -text
+inc/couleur_objet.php -text
+inclure/couleur_objet.html -text
+lang/couleur_objet_fr.php -text
+lang/paquet-couleur_objet_fr.php -text
+/paquet.xml -text
+prive/squelettes/contenu/configurer_couleur_objet.html -text

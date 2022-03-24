@@ -1,0 +1,67 @@
+a:2:{s:9:"nom_cache";s:38:"e0368eb33af5d8a2a3bb344d29797a55.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_231ada33246e9221f90a0004eb4dea66";s:6:"source";s:47:"plugins/html5up_editorial/content/rubrique.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"e0368eb33af5d8a2a3bb344d29797a55.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:3532:"
+<section>
+	<header class="main">
+		<h1 class="">Des partenaires</h1>
+	</header>
+
+	<div class="texte "><p>Le Lib&#8217;Air&#8217;Terre, c&#8217;est tout un réseau de partenaires qui ont décidés de soutenir le projet et les activités. Parmis eux, nous souhaitons remercier chaleureusement nos partenaires institutionnels&nbsp;:</p>
+<p><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;<a href="c-est-qui/des-partenaires/article/soutien-de-la-mairie-de-sevremont" class='spip_in'>La mairie de Sèvremont</a>
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;La communauté de commune du pays de Pouzaugues</p>
+<p>Et nos partenaires financiers&nbsp;:</p>
+<p><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;<a href="c-est-qui/des-partenaires/article/allianz" class='spip_in'>Allianz - Martial &amp; tommy Rapin</a>
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;<a href="c-est-qui/des-partenaires/article/tonellerie-monceau" class='spip_in'>La tonnellerie Manceau</a>
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;<a href="c-est-qui/des-partenaires/article/emmanuelle-hemon" class='spip_in'>Madame Emmanuelle Hémon</a>
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;<a href="c-est-qui/des-partenaires/article/julien-lenoir" class='spip_in'>Monsieur Julien Lenoir</a></p></div>
+	
+
+	<?php echo recuperer_fond( 'inclure/documents', array_merge(array (
+  'id_rubrique' => '37',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 14:53:20',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 14:53:20',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '37',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',10,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+
+
+
+<section>
+	<?php echo recuperer_fond( 'inclure/liste/articles', array_merge(array (
+  'id_rubrique' => '37',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 14:53:20',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 14:53:20',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '37',
+	'parpage' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',27,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+<section>
+	<?php echo recuperer_fond( 'inclure/liste/rubriques', array_merge(array (
+  'id_rubrique' => '37',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 14:53:20',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 14:53:20',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '37',
+	'parpage' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',30,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:11:"id_rubrique";s:2:"37";s:9:"type-page";s:8:"rubrique";s:4:"date";s:19:"2022-03-24 14:53:20";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 14:53:20";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:2:"10";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1648133600;s:2:"gz";b:0;s:3:"sig";i:1494183199;}}

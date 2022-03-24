@@ -1,0 +1,47 @@
+<div class="inner">
+	<section id="search" class="alt">
+		#FORMULAIRE_RECHERCHE
+	</section>
+	
+	<INCLURE{fond=inclure/sidemenu,env,rubrique_on=#ENV{id_rubrique}} />
+	
+	<B_heroside>
+	<section>
+		<BOUCLE_heroside(ARTICLES){id_article IN #CONFIG{html5up/heroside}|picker_selected{article}}>
+		[<header class="major">
+			<h2[ class="(#EDIT{titre})"]>(#TITRE)</h2>
+		</header>]
+		[<div class="mini-posts texte #EDIT{intro}">
+			(#INTRODUCTION)
+		</div>]
+		<ul class="actions">
+			<li><a href="#URL_ARTICLE" class="button"><:zcore:lire_la_suite:></a></li>
+		</ul>
+		</BOUCLE_heroside>
+	</section>
+	</B_heroside>
+	[(#CONFIG{sociaux/mail}|ou{#CONFIG{html5up/contact_telephone}}|ou{#CONFIG{html5up/contact_adresse}}|ou{#CONFIG{html5up/contact_complement}}|ou{#PLUGIN{contact}}|oui)
+	<section>
+		<header class="major">
+			<h2><:html5up:contact:></h2>
+		</header>
+		
+		<ul class="contact">
+			[<li class="fa-envelope-o"><a href="mailto:#CONFIG{sociaux/mail}">(#CONFIG{sociaux/mail})</a></li>]
+			[<li class="fa-phone">(#CONFIG{html5up/contact_telephone})</li>]
+			[<li class="fa-home">(#CONFIG{html5up/contact_adresse}|propre|ptobr)</li>]
+			[<li class="fa-clock-o">(#CONFIG{html5up/contact_complement}|propre|ptobr)</li>]
+			[(#PLUGIN{contact}|oui)
+			<li class="contact_form fa-share">
+				<div class="ajax">
+				#FORMULAIRE_CONTACT
+				</div>
+			</li>
+			]
+		</ul>
+		
+	</section>]
+	<footer id="footer">
+		<INCLURE{fond=footer/#ENV{type-page},env} />
+	</footer>
+</div><!-- .inner -->

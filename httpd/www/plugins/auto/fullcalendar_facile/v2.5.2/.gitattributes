@@ -1,0 +1,7 @@
+* text=auto !eol
+/agenda.json.html -text
+/agenda.json_fonctions.php -text
+lang/paquet-fullcalendar_facile_fr.php -text
+modeles/agenda_fullcalendar.html -text
+/paquet.xml -text
+prive/themes/spip/images/fullcalendarfacile-32.png -text svneol=unset#unset

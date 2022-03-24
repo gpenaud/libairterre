@@ -1,0 +1,15 @@
+[(#REM)
+modele <iconebloc>
+parametres :
+	|icone=fa-rocket (ou tout autre icone de FontAwesome http://fontawesome.io/icons/)
+	|iconetitre=le titre
+	|iconetexte=le texte
+	|left ou |right (comme les autres modeles de SPIP...)
+	
+]<article class="feature bloc[ (#ENV{align})]">
+	[<span class="icon (#ENV{icone})"></span>]
+	<div class="content">
+		[<h3>(#ENV{iconetitre})</h3>]
+		[<p>(#ENV*{iconetexte}|propre|ptobr)</p>]
+	</div>
+</article>

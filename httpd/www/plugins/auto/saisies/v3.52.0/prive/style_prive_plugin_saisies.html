@@ -1,0 +1,111 @@
+[(#REM)<style>/*
+	Ce squelette definit les styles de l'espace prive
+
+	Note: l'entete "Vary:" sert a repousser l'entete par
+	defaut "Vary: Cookie,Accept-Encoding", qui est (un peu)
+	genant en cas de "rotation du cookie de session" apres
+	un changement d'IP (effet de clignotement).
+
+	ATTENTION: il faut absolument le charset sinon Firefox croit que
+	c'est du text/html !
+*/]#CACHE{3600*100,cache-client}
+#HTTP_HEADER{Content-Type: text/css; charset=iso-8859-15}
+#HTTP_HEADER{Vary: Accept-Encoding}
+#wysiwyg .saisie_fieldset .champ {font-size: 1em;}
+
+body.saisies_doc {
+	background-color: #efefef;
+}
+<B_saisies>
+<BOUCLE_saisies (DATA) {source table, #VAL{saisies}|saisies_lister_disponibles{''}}>
+.navigation_avec_icones .bando2_saisie_[(#CLE)] { [background-image: url((#ICONE|image_reduire{16}|extraire_attribut{src}));] }
+</BOUCLE_saisies>
+</B_saisies>
+
+/* Thème des saisies fieldsets en onglets
+ * La base mutualisée avec le public se trouve dans saisies.css.html
+ * On s'inspire de material design : https://material.io/components/tabs
+ */
+.formulaire_spip .fieldset_onglet > fieldset {
+	border-top: 0;
+}
+.saisies-menu-onglets.saisies-menu-onglets {
+	border-bottom: 0;
+}
+/* pseudo-element pour avoir une bordure en bas à la fin */
+.saisies-menu-onglets__item:last-child {
+	flex: 1 1 auto;
+}
+.saisies-menu-onglets__item:last-child:after {
+	content: '';
+	flex: 1 1 auto;
+}
+.saisies-menu-onglets__item:last-child:after,
+.saisies-menu-onglets__lien {
+	border-bottom: 2px solid hsla(0, 0%, 0%, 0.066);
+}
+.saisies-menu-onglets__lien {
+	color: inherit;
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 0.85em;
+	transition: 0.05s all;
+}
+.saisies-menu-onglets__item .saisies-menu-onglets__lien.actif {
+	color: [#(#ENV{foncee}|couleur_foncer{0.1})];
+	border-bottom-color: #ENV{foncee};
+	font-weight: 500;
+}
+.saisies-menu-onglets__lien:hover,
+.saisies-menu-onglets__lien:focus {
+	transition-duration: 0.2s;
+}
+.saisies-menu-onglets__lien:hover {
+	background-color: hsla(0, 0%, 0%, 0.05);
+}
+.saisies-menu-onglets__lien:focus {
+	background-color: hsla(0, 0%, 0%, 0.1);
+}
+.saisies-menu-onglets__lien.erreur {
+	color: red;
+}
+.saisies-menu-onglets__lien.erreur:after {
+	content: '';
+	display: block;
+	width: 1em;
+	height: 1em;
+	background: url(#CHEMIN_IMAGE{erreur-16.png}) no-repeat;
+	background-size: contain;
+	margin-#LEFT: 0.5em;
+}
+/* Menu scrollable quand les onglets dépassent */
+.saisies-menu-onglets.scrollable {
+	overflow-x: scroll;
+	scrollbar-width: thin;
+	scrollbar-color: transparent transparent;
+	transition: scrollbar-color 0.2s;
+	-webkit-mask-image: linear-gradient(
+		to right,
+		transparent 0%,
+		black 2em,
+		black calc(100% - 10em),
+		transparent 100%
+	);
+	mask-image: linear-gradient(
+		to right,
+		transparent 0%,
+		black 2em,
+		black calc(100% - 10em),
+		transparent 100%
+	);
+}
+.saisies-menu-onglets.scrollable .saisies-menu-onglets__item:first-child {
+	padding-#LEFT: 2em;
+}
+.saisies-menu-onglets.scrollable .saisies-menu-onglets__item:last-child {
+	padding-#RIGHT: 6em;
+}
+.saisies-menu-onglets.scrollable:hover {
+	scrollbar-color: black transparent;
+}

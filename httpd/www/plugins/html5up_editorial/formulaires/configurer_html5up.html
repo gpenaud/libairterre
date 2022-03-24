@@ -1,0 +1,93 @@
+<div class="formulaire_spip formulaire_configurer formulaire_#FORM">
+
+	<h3 class="titrem"><:html5up:cfg_titre_parametrages:></h3>
+
+	[<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok})</p>]
+	[<p class="reponse_formulaire reponse_formulaire_erreur">(#ENV*{message_erreur})</p>]
+
+	<form method="post" action="#ENV{action}">
+	<div>
+		#ACTION_FORMULAIRE
+
+		<fieldset>
+			<legend><:html5up:couleur:></legend>
+			<div class="editer-groupe">
+				[(#SAISIE{input,couleur_accent,
+					label=<:html5up:couleur_accent:>,
+					explication=<:html5up:couleur_accent_explications:>,
+					class=palette,
+					type=color,
+					defaut=#F56A6A})]
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend><:html5up:reseaux_sociaux:></legend>
+			<div class="editer-groupe">
+				<div class="editer pleine_largeur">
+					<span class="explication">
+						[(#PLUGIN{sociaux}|non)
+							<:html5up:reseau_sociaux_activer:>
+						][(#PLUGIN{sociaux}|oui)
+						<a href="#URL_ECRIRE{configurer_sociaux}"><:html5up:reseaux_sociaux_configurer:></a>
+						]
+					</span>
+				</div>
+			</div>
+		</fieldset>
+		<fieldset>
+		<legend><:zcore:accueil:></legend>
+			<div class="editer-groupe">
+				[(#SAISIE{selecteur_article, hero, 
+					label=<:html5up:hero:>,
+					explication=<:html5up:hero_explications:>})]
+				[(#SAISIE{selecteur_article, major, 
+					label=<:html5up:major:>,
+					explication=<:html5up:major_explications:>})]
+				[(#SAISIE{input,suivants_titre,
+					label=<:html5up:article_suivants_titre:>,
+					explication=<:html5up:article_suivants_titre_explications:>})]
+				[(#SAISIE{input,suivants_total,
+					label=<:html5up:articles_suivants_total:>,
+					explication=<:html5up:articles_suivants_total_explications:>})]
+				[(#SAISIE{input,suivants_parpage,
+					label=<:html5up:articles_suivants_parpage:>,
+					explication=<:html5up:articles_suivants_parpage_explications:>})]
+			</div>
+		</fieldset>
+		<fieldset>
+		<legend><:html5up:sidebar:></legend>
+			<div class="editer-groupe">
+				[(#SAISIE{selecteur_article, heroside, 
+					label=<:html5up:heroside:>,
+					explication=<:html5up:heroside_explications:>})]
+			</div>
+			<legend>Contact</legend>
+			<div class="editer-groupe">
+
+				<div class="editer pleine_largeur">
+					<span class="explication">
+						[(#PLUGIN{contact}|non)
+							Activer le plugin «Formulaire de contact avancé» pour afficher un formulaire de contact
+						][(#PLUGIN{contact}|oui)
+						<a href="#URL_ECRIRE{configurer_contact}">Configurer le plugin : Contact</a>
+						]
+					</span>
+				</div>
+
+				[(#SAISIE{input,contact_telephone,
+					label=<:html5up:contact_tel:>})]
+				[(#SAISIE{textarea,contact_adresse,
+					label=<:html5up:contact_adresse:>,
+					rows=4})]
+				[(#SAISIE{textarea,contact_complement,
+					label=<:html5up:contact_complement:>,
+					rows=4})]
+
+			</div>
+		</fieldset>
+
+		<input type="hidden" name="_meta_casier" value="html5up" />
+		<p class="boutons"><span class="image_loading">&nbsp;</span><input type="submit" class="submit" value="<:bouton_enregistrer:>" /></p>
+	</div>
+	</form>
+</div>

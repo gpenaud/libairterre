@@ -1,0 +1,10 @@
+<!-- recherche -->
+[(#ENV{recherche}|oui)
+<section class="wrapper">
+	<div class="inner">
+		<h3 class="major"><:resultats_recherche:> [&laquo; <strong class="on">(#RECHERCHE)</strong> &raquo;]</h3>
+		<INCLURE{fond=inclure/liste/articles-recherche, env, ajax} />
+		<INCLURE{fond=inclure/liste/rubriques-recherche, env, ajax} />
+	</div>
+</section>
+]

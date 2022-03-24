@@ -1,0 +1,109 @@
+a:2:{s:9:"nom_cache";s:38:"5c78d7f8a3ff7ff888ca964b0b20848c.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_e57f8d3aa6cb545c6e492fea625cda4f";s:6:"source";s:42:"squelettes/inclure/sidemenu-rubriques.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"5c78d7f8a3ff7ff888ca964b0b20848c.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2996:"
+
+
+		
+		
+	<li>
+		<a href="c-est-quoi/son-ame/">Un ensemble de valeurs</a>
+		<ul>
+			
+			<?php echo recuperer_fond( 'inclure/sidemenu-rubriques', array_merge(array (
+  'id_rubrique' => '2',
+  'id_article' => '104',
+  'type-page' => 'article',
+  'date' => '2022-03-24 16:25:58',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:25:58',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '30',
+	'rubrique_on' => '6',
+	'par num titre' => '',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu-rubriques.html','html_e57f8d3aa6cb545c6e492fea625cda4f','',10,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+		</ul>
+	</li>
+
+
+		
+		
+	<li>
+		<a href="c-est-quoi/une-aventure-associative/">Une aventure associative</a>
+		<ul>
+			
+			<?php echo recuperer_fond( 'inclure/sidemenu-rubriques', array_merge(array (
+  'id_rubrique' => '2',
+  'id_article' => '104',
+  'type-page' => 'article',
+  'date' => '2022-03-24 16:25:58',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:25:58',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '35',
+	'rubrique_on' => '6',
+	'par num titre' => '',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu-rubriques.html','html_e57f8d3aa6cb545c6e492fea625cda4f','',10,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+		</ul>
+	</li>
+
+
+		
+		
+	<li>
+		<a href="c-est-quoi/un-oasis-de-vie-31/">Un oasis de vie et de ressources</a>
+		<ul>
+			
+			<?php echo recuperer_fond( 'inclure/sidemenu-rubriques', array_merge(array (
+  'id_rubrique' => '2',
+  'id_article' => '104',
+  'type-page' => 'article',
+  'date' => '2022-03-24 16:25:58',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:25:58',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '31',
+	'rubrique_on' => '6',
+	'par num titre' => '',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu-rubriques.html','html_e57f8d3aa6cb545c6e492fea625cda4f','',10,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+		</ul>
+	</li>
+
+
+	<li>
+		<a href="c-est-quoi/des-oasis/">Une organisation structurée</a>
+		<ul>
+			
+			<?php echo recuperer_fond( 'inclure/sidemenu-rubriques', array_merge(array (
+  'id_rubrique' => '2',
+  'id_article' => '104',
+  'type-page' => 'article',
+  'date' => '2022-03-24 16:25:58',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:25:58',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '32',
+	'rubrique_on' => '6',
+	'par num titre' => '',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu-rubriques.html','html_e57f8d3aa6cb545c6e492fea625cda4f','',10,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+		</ul>
+	</li>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:11:{s:11:"id_rubrique";s:1:"2";s:10:"id_article";s:3:"104";s:9:"type-page";s:7:"article";s:4:"date";s:19:"2022-03-24 16:25:58";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 16:25:58";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:1:"6";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";s:11:"rubrique_on";s:1:"6";}s:12:"lastmodified";i:1648139158;s:2:"gz";b:0;s:3:"sig";i:1494477971;}}

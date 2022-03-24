@@ -1,0 +1,7 @@
+<section id="search" class="alt">
+	<form action="[(#ENV{action})]" method="get">
+	[(#ENV{action}|form_hidden)]
+	[<input type="hidden" name="lang" value="(#ENV{lang})" />]
+		<input class="search text" name="recherche" id="#ENV{_id_champ}"[ value="(#ENV{recherche})"] accesskey="4" placeholder="<:html5up:rechercher:>" type="[(#HTML5|?{search,text})]" />
+	</form>
+</section>

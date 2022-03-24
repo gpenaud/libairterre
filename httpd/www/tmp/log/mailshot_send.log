@@ -1,0 +1,4 @@
+2019-03-27 16:18:59 109.19.21.213 (pid 17995) :Pri:ERREUR: mailer non configure pour l'envoi de 1 a contact@phyness.fr
+2021-05-05 11:24:36 93.23.16.20 (pid 24755) :Pri:ERREUR: Erreur Envoi mail (guillaume.penaud@gmail.com) via Facteur : SMTP Error: Could not authenticate.
+2021-05-05 11:28:21 93.23.16.20 (pid 29780) :Pri:ERREUR: Erreur Envoi mail (guillaume.penaud@gmail.com) via Facteur : SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: Mail quota exceeded for contact@libairterre.fr: You have exceeded the limit of 200 messages per hour and per account. Please, re-try later.
+ SMTP code: 550 Additional SMTP info: 5.7.0

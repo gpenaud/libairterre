@@ -1,0 +1,34 @@
+<BOUCLE_rubrique(RUBRIQUES){id_rubrique}>
+<section>
+	<header class="main">
+		[<h1 class="#EDIT{titre}">(#TITRE)</h1>]
+	</header>
+
+	[<div class="texte #EDIT{texte}">(#TEXTE|adaptive_images)</div>]
+	[<div class="notes">(#NOTES)</div>]
+
+	<INCLURE{fond=inclure/documents,id_rubrique,ajax,env} />
+</section>
+
+/* BEGIN OF CHANGES By Guillaume Penaud */
+<B_agenda>
+<section>
+	<header class="major">
+	<h2>Prochainement</h2>
+	</header>
+	<BOUCLE_agenda(EVENEMENTS){id_rubrique}{evenement_a_venir}{par date_debut}{0,3}>
+	<dt><b><a href="#URL_ARTICLE">#TITRE</a></b></dt>
+	<dd><b>Date</b>:  [(#DATE_DEBUT|Agenda_affdate_debut_fin{#DATE_FIN,#HORAIRE})]</dd>
+	<dd><b>Lieu</b>:  #LIEU</dd><br>
+	</BOUCLE_agenda>
+</section>
+</B_agenda>
+/* END OF CHANGES By Guillaume Penaud */
+
+<section>[(#REM) grader la section ici pour eviter de la mettre dans une div ajaxee -> perte de la mise en forme]
+	<INCLURE{fond=inclure/liste/articles,id_rubrique,ajax,env,parpage=6} />
+</section>
+<section>
+	<INCLURE{fond=inclure/liste/rubriques,id_rubrique,ajax,env,parpage=6} />
+</section>
+</BOUCLE_rubrique>

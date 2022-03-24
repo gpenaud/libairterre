@@ -1,0 +1,1 @@
+2019-03-28 15:50:59 109.19.21.213 (pid 24199) :Pri:!INFO: api.mailjet.com/v3/sender : status 400 - , There is an already existing inactive sender with the same email. You can use "validate" action in order to activate it.

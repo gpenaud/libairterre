@@ -1,0 +1,680 @@
+2019-01-24 11:52:05 91.164.25.75 (pid 29819) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_debuthtml_c65359b42ce806dca6c954c06b50c71a(),html_c65359b42ce806dca6c954c06b50c71a(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+ORDER BY evenements.date_debut
+LIMIT 0,1
+2019-01-24 11:52:05 91.164.25.75 (pid 29819) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_moishtml_41c8a7370b68b72d932d9c60c90c862e(),html_41c8a7370b68b72d932d9c60c90c862e(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_c65359b42ce806dca6c954c06b50c71a(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut, evenements.id_evenement, DATE_FORMAT(evenements.date_debut, '%Y-%m') AS mois
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+GROUP BY DATE_FORMAT(evenements.date_debut, '%Y-%m')
+ORDER BY evenements.date_debut DESC
+2019-01-24 11:52:06 91.164.25.75 (pid 29819) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_unhtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (evenements.id_evenement = 0)
+GROUP BY evenements.id_evenement
+2019-01-24 11:52:06 91.164.25.75 (pid 29819) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_debuthtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut, evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (((horaire = 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')) OR ((horaire != 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')))
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+LIMIT 0,1
+2019-01-24 11:52:06 91.164.25.75 (pid 29819) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_liste_evthtml_2edeea9698b4d412eb5d5bd20d9c4fc8(),html_2edeea9698b4d412eb5d5bd20d9c4fc8(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement, 0 as points, '', evenements.id_evenement_source, evenements.statut, evenements.date_debut, evenements.id_article, evenements.titre AS titre_rang, evenements.titre, evenements.date_fin, evenements.horaire, evenements.lieu
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+2019-01-24 11:52:30 91.164.25.75 (pid 29819) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_liste_evthtml_2edeea9698b4d412eb5d5bd20d9c4fc8(),html_2edeea9698b4d412eb5d5bd20d9c4fc8(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),agenda_accueil_encours(),minipipe(),execute_pipeline_accueil_encours(),pipeline(),html_7e3cc7da2e6afd00c578441a70287398(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement, 0 as points, '', evenements.id_evenement_source, evenements.statut, evenements.date_debut, evenements.id_article, evenements.titre AS titre_rang, evenements.titre, evenements.date_fin, evenements.horaire, evenements.lieu
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE ((evenements.statut  IN ('prop')))
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+2019-01-24 11:53:50 91.164.25.75 (pid 15349) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_debuthtml_c65359b42ce806dca6c954c06b50c71a(),html_c65359b42ce806dca6c954c06b50c71a(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+ORDER BY evenements.date_debut
+LIMIT 0,1
+2019-01-24 11:53:50 91.164.25.75 (pid 15349) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_moishtml_41c8a7370b68b72d932d9c60c90c862e(),html_41c8a7370b68b72d932d9c60c90c862e(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_c65359b42ce806dca6c954c06b50c71a(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut, evenements.id_evenement, DATE_FORMAT(evenements.date_debut, '%Y-%m') AS mois
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+GROUP BY DATE_FORMAT(evenements.date_debut, '%Y-%m')
+ORDER BY evenements.date_debut DESC
+2019-01-24 11:53:50 91.164.25.75 (pid 15349) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_unhtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (evenements.id_evenement = 0)
+GROUP BY evenements.id_evenement
+2019-01-24 11:53:50 91.164.25.75 (pid 15349) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_debuthtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut, evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (((horaire = 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')) OR ((horaire != 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')))
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+LIMIT 0,1
+2019-01-24 11:53:50 91.164.25.75 (pid 15349) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_liste_evthtml_2edeea9698b4d412eb5d5bd20d9c4fc8(),html_2edeea9698b4d412eb5d5bd20d9c4fc8(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement, 0 as points, '', evenements.id_evenement_source, evenements.statut, evenements.date_debut, evenements.id_article, evenements.titre AS titre_rang, evenements.titre, evenements.date_fin, evenements.horaire, evenements.lieu
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+2019-01-24 11:53:52 91.164.25.75 (pid 15349) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/inc/editer.php L220 [sql_fetsel(),formulaires_editer_objet_charger(),formulaires_editer_evenement_charger_dist(),formulaire__charger(),balise_FORMULAIRE__contexte(),balise_FORMULAIRE__dyn(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_evenements
+WHERE id_evenement=0
+2019-01-24 11:55:47 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_unhtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),agenda_affiche_milieu(),minipipe(),execute_pipeline_affiche_milieu(),pipeline(),f_afficher_blocs_ecrire(),f_recuperer_fond(),minipipe(),execute_pipeline_recuperer_fond(),pipeline(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (evenements.id_evenement = 0)
+	AND (evenements.id_article = 23)
+GROUP BY evenements.id_evenement
+2019-01-24 11:55:47 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_debuthtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),agenda_affiche_milieu(),minipipe(),execute_pipeline_affiche_milieu(),pipeline(),f_afficher_blocs_ecrire(),f_recuperer_fond(),minipipe(),execute_pipeline_recuperer_fond(),pipeline(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut, evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (((horaire = 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')) OR ((horaire != 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')))
+	AND (evenements.id_article = 23)
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+LIMIT 0,1
+2019-01-24 11:55:47 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_liste_evthtml_2edeea9698b4d412eb5d5bd20d9c4fc8(),html_2edeea9698b4d412eb5d5bd20d9c4fc8(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),agenda_affiche_milieu(),minipipe(),execute_pipeline_affiche_milieu(),pipeline(),f_afficher_blocs_ecrire(),f_recuperer_fond(),minipipe(),execute_pipeline_recuperer_fond(),pipeline(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement, 0 as points, '', evenements.id_evenement_source, evenements.statut, evenements.date_debut, evenements.id_article, evenements.titre AS titre_rang, evenements.titre, evenements.date_fin, evenements.horaire, evenements.lieu
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (evenements.id_article = 23)
+	AND ((evenements.statut  IN ('publie','prop')))
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+2019-01-24 11:55:59 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/plugins/agenda-v3/action/editer_evenement.php L70 [sql_insertq(),evenement_inserer(),agenda_action_insert_evenement(),action_editer_evenement_dist(),formulaires_editer_objet_traiter(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+INSERT INTO spip_evenements (id_evenement_source,id_article,statut) VALUES (0,23,'prop')
+2019-01-24 11:55:59 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1064 de mysql: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+in /home/libairtewh/www/plugins/agenda-v3/formulaires/editer_evenement.php L132 [sql_getfetsel(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+SELECT id_article
+FROM `libairtewhphy`.spip_evenements
+WHERE id_evenement=
+2019-01-24 11:55:59 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/plugins/agenda-v3/action/editer_evenement.php L111 [sql_getfetsel(),evenement_modifier(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+SELECT statut
+FROM `libairtewhphy`.spip_evenements
+WHERE id_evenement=0
+2019-01-24 11:56:23 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/plugins/agenda-v3/action/editer_evenement.php L70 [sql_insertq(),evenement_inserer(),agenda_action_insert_evenement(),action_editer_evenement_dist(),formulaires_editer_objet_traiter(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+INSERT INTO spip_evenements (id_evenement_source,id_article,statut) VALUES (0,23,'prop')
+2019-01-24 11:56:23 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1064 de mysql: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+in /home/libairtewh/www/plugins/agenda-v3/formulaires/editer_evenement.php L132 [sql_getfetsel(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+SELECT id_article
+FROM `libairtewhphy`.spip_evenements
+WHERE id_evenement=
+2019-01-24 11:56:23 91.164.25.75 (pid 18963) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/plugins/agenda-v3/action/editer_evenement.php L111 [sql_getfetsel(),evenement_modifier(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+SELECT statut
+FROM `libairtewhphy`.spip_evenements
+WHERE id_evenement=0
+2019-01-24 11:58:49 91.164.25.75 (pid 12508) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/plugins/agenda-v3/action/editer_evenement.php L70 [sql_insertq(),evenement_inserer(),agenda_action_insert_evenement(),action_editer_evenement_dist(),formulaires_editer_objet_traiter(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+INSERT INTO spip_evenements (id_evenement_source,id_article,statut) VALUES (0,23,'prop')
+2019-01-24 11:58:49 91.164.25.75 (pid 12508) :Pri:ERREUR: Erreur 1064 de mysql: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+in /home/libairtewh/www/plugins/agenda-v3/formulaires/editer_evenement.php L132 [sql_getfetsel(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+SELECT id_article
+FROM `libairtewhphy`.spip_evenements
+WHERE id_evenement=
+2019-01-24 11:58:49 91.164.25.75 (pid 12508) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/plugins/agenda-v3/action/editer_evenement.php L111 [sql_getfetsel(),evenement_modifier(),formulaires_editer_evenement_traiter_dist(),traiter_formulaires_dynamiques()]
+SELECT statut
+FROM `libairtewhphy`.spip_evenements
+WHERE id_evenement=0
+2019-01-24 12:00:36 91.164.25.75 (pid 26428) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_unhtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),agenda_affiche_milieu(),minipipe(),execute_pipeline_affiche_milieu(),pipeline(),f_afficher_blocs_ecrire(),f_recuperer_fond(),minipipe(),execute_pipeline_recuperer_fond(),pipeline(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (evenements.id_evenement = 0)
+	AND (evenements.id_article = 23)
+GROUP BY evenements.id_evenement
+2019-01-24 12:00:36 91.164.25.75 (pid 26428) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_debuthtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),agenda_affiche_milieu(),minipipe(),execute_pipeline_affiche_milieu(),pipeline(),f_afficher_blocs_ecrire(),f_recuperer_fond(),minipipe(),execute_pipeline_recuperer_fond(),pipeline(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut, evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (((horaire = 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')) OR ((horaire != 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')))
+	AND (evenements.id_article = 23)
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+LIMIT 0,1
+2019-01-24 12:00:36 91.164.25.75 (pid 26428) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_liste_evthtml_2edeea9698b4d412eb5d5bd20d9c4fc8(),html_2edeea9698b4d412eb5d5bd20d9c4fc8(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),agenda_affiche_milieu(),minipipe(),execute_pipeline_affiche_milieu(),pipeline(),f_afficher_blocs_ecrire(),f_recuperer_fond(),minipipe(),execute_pipeline_recuperer_fond(),pipeline(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement, 0 as points, '', evenements.id_evenement_source, evenements.statut, evenements.date_debut, evenements.id_article, evenements.titre AS titre_rang, evenements.titre, evenements.date_fin, evenements.horaire, evenements.lieu
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (evenements.id_article = 23)
+	AND ((evenements.statut  IN ('publie','prop')))
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+2019-01-24 12:00:37 91.164.25.75 (pid 26428) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/inc/editer.php L220 [sql_fetsel(),formulaires_editer_objet_charger(),formulaires_editer_evenement_charger_dist(),formulaire__charger(),balise_FORMULAIRE__contexte(),balise_FORMULAIRE__dyn(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_evenements
+WHERE id_evenement=0
+2019-01-24 12:01:20 91.164.25.75 (pid 9635) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_debuthtml_c65359b42ce806dca6c954c06b50c71a(),html_c65359b42ce806dca6c954c06b50c71a(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+ORDER BY evenements.date_debut
+LIMIT 0,1
+2019-01-24 12:01:20 91.164.25.75 (pid 9635) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_moishtml_41c8a7370b68b72d932d9c60c90c862e(),html_41c8a7370b68b72d932d9c60c90c862e(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_c65359b42ce806dca6c954c06b50c71a(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut, evenements.id_evenement, DATE_FORMAT(evenements.date_debut, '%Y-%m') AS mois
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+GROUP BY DATE_FORMAT(evenements.date_debut, '%Y-%m')
+ORDER BY evenements.date_debut DESC
+2019-01-24 12:01:20 91.164.25.75 (pid 9635) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_unhtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (evenements.id_evenement = 0)
+GROUP BY evenements.id_evenement
+2019-01-24 12:01:20 91.164.25.75 (pid 9635) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_debuthtml_6c69de98b30e3c821bddc9d89dc2a8b4(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.date_debut, evenements.id_evenement
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+WHERE (((horaire = 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')) OR ((horaire != 'oui') AND (evenements.date_debut > '2019-01-23 23:59:59')))
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+LIMIT 0,1
+2019-01-24 12:01:20 91.164.25.75 (pid 9635) :Pri:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_evenements' doesn't exist
+in /home/libairtewh/www/ecrire/public/composer.php L1005 [sql_select(),calculer_select(),select(),__construct(),create(),BOUCLE_liste_evthtml_2edeea9698b4d412eb5d5bd20d9c4fc8(),html_2edeea9698b4d412eb5d5bd20d9c4fc8(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_6c69de98b30e3c821bddc9d89dc2a8b4(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),html_01ee36a0b91e36d31d21d5add0869094(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT evenements.id_evenement, 0 as points, '', evenements.id_evenement_source, evenements.statut, evenements.date_debut, evenements.id_article, evenements.titre AS titre_rang, evenements.titre, evenements.date_fin, evenements.horaire, evenements.lieu
+FROM `libairtewhphy`.spip_evenements AS `evenements`
+GROUP BY evenements.id_evenement
+ORDER BY evenements.date_debut
+2019-03-27 16:41:24 54.37.121.239 (pid 945) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry '1-kevinbodin2@gmail.com' for key 'PRIMARY'
+in /home/libairtewh/www/plugins/mailshot-v1/inc/mailshot.php L409 [sql_insertq(),mailshot_initialiser_destinataires(),mailshot_envoyer_lot(),genie_mailshot_bulksend_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_mailshots_destinataires (id_mailshot,email,date,statut) VALUES (1,'kevinbodin2@gmail.com','2019-03-27 16:41:24','todo')
+2019-03-27 16:41:24 54.37.121.239 (pid 945) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry '1-jacques.grolleau@yahoo.fr' for key 'PRIMARY'
+in /home/libairtewh/www/plugins/mailshot-v1/inc/mailshot.php L409 [sql_insertq(),mailshot_initialiser_destinataires(),mailshot_envoyer_lot(),genie_mailshot_bulksend_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_mailshots_destinataires (id_mailshot,email,date,statut) VALUES (1,'jacques.grolleau@yahoo.fr','2019-03-27 16:41:24','todo')
+2019-03-28 16:49:21 109.19.21.213 (pid 5530) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '2-kevinbodin2@gmail.com' for key 'PRIMARY'
+in /home/libairtewh/www/plugins/mailshot-v1/inc/mailshot.php L409 [sql_insertq(),mailshot_initialiser_destinataires(),mailshot_envoyer_lot(),genie_mailshot_bulksend_dist(),queue_start_job(),queue_schedule(),action_forcer_job_dist(),traiter_appels_actions()]
+INSERT INTO spip_mailshots_destinataires (id_mailshot,email,date,statut) VALUES (2,'kevinbodin2@gmail.com','2019-03-28 16:49:21','todo')
+2019-03-28 16:49:21 109.19.21.213 (pid 5530) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '2-jacques.grolleau@yahoo.fr' for key 'PRIMARY'
+in /home/libairtewh/www/plugins/mailshot-v1/inc/mailshot.php L409 [sql_insertq(),mailshot_initialiser_destinataires(),mailshot_envoyer_lot(),genie_mailshot_bulksend_dist(),queue_start_job(),queue_schedule(),action_forcer_job_dist(),traiter_appels_actions()]
+INSERT INTO spip_mailshots_destinataires (id_mailshot,email,date,statut) VALUES (2,'jacques.grolleau@yahoo.fr','2019-03-28 16:49:21','todo')
+2020-09-26 09:43:11 90.93.231.217 (pid 9789) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '-1-article/soutenir-le-projet' for key 'PRIMARY'
+in /home/libairtewh/www/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),generer_url_entite_absolue(),calculer_url_redirect_entite(),action_redirect_dist(),traiter_appels_actions()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('article/soutenir-le-projet','article',50,-1,'',0,2)
+2021-04-14 11:19:27 91.164.25.75 (pid 3918) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '19-article/agenda-des-activites' for key 'PRIMARY'
+in /home/libairtewh/www/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_arthtml_d63d27e1216aa6c9003b8f15632e183d(),html_d63d27e1216aa6c9003b8f15632e183d(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),email_notification_article(),notifications_instituerarticle_dist(),inc_notifications_dist(),article_instituer(),objet_instituer(),formulaires_instituer_objet_traiter_dist(),traiter_formulaires_dynamiques()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('article/agenda-des-activites','article',65,19,'',0,2)
+2021-04-15 08:42:28 91.164.25.75 (pid 15950) :Pri:ERREUR: Erreur 1064 de mysql: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'last_modified_distant text NOT NULL AFTER sequence' at line 1
+in /home/libairtewh/www/ecrire/base/create.php L97 [sql_alter(),creer_ou_upgrader_table(),alterer_base(),maj_tables(),serie_alter(),maj_while(),maj_plugin(),import_ics_upgrade(),spip_plugin_install(),plugins_installer_dist(),installer_plugin(),do_install(),do_action(),one_action(),action_actionner_dist(),traiter_appels_actions()]
+ALTER TABLE `libairtewhphy`.spip_evenements ADD last_modified_distant last_modified_distant text NOT NULL AFTER sequence
+2021-04-15 08:42:28 91.164.25.75 (pid 15950) :Pri:ERREUR: Erreur 1060 de mysql: Duplicate column name 'uid'
+in /home/libairtewh/www/ecrire/base/upgrade.php L464 [sql_alter(),serie_alter(),maj_while(),maj_plugin(),import_ics_upgrade(),spip_plugin_install(),plugins_installer_dist(),installer_plugin(),do_install(),do_action(),one_action(),action_actionner_dist(),traiter_appels_actions()]
+ALTER TABLE `libairtewhphy`.spip_evenements ADD uid text NOT NULL
+2021-04-15 08:42:28 91.164.25.75 (pid 15950) :Pri:ERREUR: Erreur 1060 de mysql: Duplicate column name 'sequence'
+in /home/libairtewh/www/ecrire/base/upgrade.php L464 [sql_alter(),serie_alter(),maj_while(),maj_plugin(),import_ics_upgrade(),spip_plugin_install(),plugins_installer_dist(),installer_plugin(),do_install(),do_action(),one_action(),action_actionner_dist(),traiter_appels_actions()]
+ALTER TABLE `libairtewhphy`.spip_evenements ADD sequence bigint(21) DEFAULT '0' NOT NULL
+2021-05-05 13:22:00 92.184.116.243 (pid 26126) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '2-un-oasis-de-vie' for key 'PRIMARY'
+in /home/libairtewh/www/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),declarer_url_arbo_rec(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),generer_url_entite_absolue(),calculer_url_redirect_entite(),action_redirect_dist(),traiter_appels_actions()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('un-oasis-de-vie','rubrique',31,2,'',0,1)
+2021-05-07 19:04:48 92.184.116.231 (pid 8650) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '2-un-oasis-de-vie' for key 'PRIMARY'
+in /home/libairtewh/www/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),declarer_url_arbo_rec(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),generer_url_entite_absolue(),calculer_url_redirect_entite(),action_redirect_dist(),traiter_appels_actions()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('un-oasis-de-vie','rubrique',31,2,'',0,1)
+2021-05-07 19:04:48 92.184.116.231 (pid 8650) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '2-un-oasis-de-vie-31' for key 'PRIMARY'
+in /home/libairtewh/www/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),url_insert_replay(),url_insert(),declarer_url_arbo(),declarer_url_arbo_rec(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),generer_url_entite_absolue(),calculer_url_redirect_entite(),action_redirect_dist(),traiter_appels_actions()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('un-oasis-de-vie-31','rubrique',31,2,'',0,1)
+2021-06-04 14:34:28 172.20.0.1 (pid 20) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_langueshtml_e38a863f56489ed6e259b4b561d6a966(),html_e38a863f56489ed6e259b4b561d6a966(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2021-06-04 14:34:28 172.20.0.1 (pid 20) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_langueshtml_e38a863f56489ed6e259b4b561d6a966(),html_e38a863f56489ed6e259b4b561d6a966(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2021-06-04 14:34:28 172.20.0.1 (pid 20) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_exthtml_ffee1fb84461d85c7cca731f72395470(),html_ffee1fb84461d85c7cca731f72395470(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),inclure_modele(),traiter_modeles(),expanser_liens(),propre(),BOUCLE_herohtml_717e186e8838bff2c26977fd030bc8ef(),html_717e186e8838bff2c26977fd030bc8ef(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2021-06-04 14:34:28 172.20.0.1 (pid 20) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),autoriser_document_voir(),autoriser_dist(),autoriser(),urls_generer_url_document_dist(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_toushtml_9f64c8f432bd109400e2a65ea4bac114(),html_9f64c8f432bd109400e2a65ea4bac114(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),inclure_modele(),traiter_modeles(),expanser_liens(),propre(),BOUCLE_herohtml_717e186e8838bff2c26977fd030bc8ef(),html_717e186e8838bff2c26977fd030bc8ef(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='document'
+2021-06-04 14:34:40 172.20.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones' doesn't exist
+in /www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones
+LIMIT 1
+2021-06-04 14:34:40 172.20.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_couleur_objet_liens' doesn't exist
+in /www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_couleur_objet_liens
+LIMIT 1
+2021-06-04 14:34:40 172.20.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones_liens
+LIMIT 1
+2021-06-05 07:57:31 172.20.0.1 (pid 29) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones' doesn't exist
+in /www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones
+LIMIT 1
+2021-06-05 07:57:31 172.20.0.1 (pid 29) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_couleur_objet_liens' doesn't exist
+in /www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_couleur_objet_liens
+LIMIT 1
+2021-06-05 07:57:31 172.20.0.1 (pid 29) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones_liens
+LIMIT 1
+2021-06-05 07:58:14 172.20.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2021-06-05 07:58:14 172.20.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2021-06-05 07:58:14 172.20.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2021-06-05 07:58:14 172.20.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2021-06-05 07:59:14 172.20.0.1 (pid 21) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2021-06-05 07:59:14 172.20.0.1 (pid 21) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2021-06-05 07:59:14 172.20.0.1 (pid 21) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2021-06-05 07:59:14 172.20.0.1 (pid 21) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 14:52:46 172.28.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 14:52:46 172.28.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 14:52:46 172.28.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),produire_fond_statique(),BOUCLE_agendahtml_6b3fa5e73a4d5cf4539dc2ca95e754bb(),html_6b3fa5e73a4d5cf4539dc2ca95e754bb(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),inclure_modele(),traiter_modeles(),expanser_liens(),propre(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 14:52:47 172.28.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 14:52:48 172.28.0.1 (pid 28) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 14:52:48 172.28.0.1 (pid 28) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 14:52:48 172.28.0.1 (pid 28) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 14:52:57 172.28.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 14:52:57 172.28.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 14:52:57 172.28.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 14:53:00 172.28.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 14:53:00 172.28.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 14:53:00 172.28.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 14:53:00 172.28.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 14:53:17 172.28.0.1 (pid 25) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 14:53:17 172.28.0.1 (pid 25) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 14:53:17 172.28.0.1 (pid 25) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_evenementshtml_c62d5b18ded70b7a44ecd3025fd27850(),html_c62d5b18ded70b7a44ecd3025fd27850(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 14:53:20 172.28.0.1 (pid 28) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 14:53:20 172.28.0.1 (pid 28) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 14:53:21 172.28.0.1 (pid 28) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 14:53:21 172.28.0.1 (pid 28) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 14:58:14 172.30.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_langueshtml_e38a863f56489ed6e259b4b561d6a966(),html_e38a863f56489ed6e259b4b561d6a966(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 14:58:14 172.30.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_langueshtml_e38a863f56489ed6e259b4b561d6a966(),html_e38a863f56489ed6e259b4b561d6a966(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 14:58:14 172.30.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_exthtml_ffee1fb84461d85c7cca731f72395470(),html_ffee1fb84461d85c7cca731f72395470(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),inclure_modele(),traiter_modeles(),expanser_liens(),propre(),BOUCLE_herohtml_717e186e8838bff2c26977fd030bc8ef(),html_717e186e8838bff2c26977fd030bc8ef(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 14:58:14 172.30.0.1 (pid 22) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),autoriser_document_voir(),autoriser_dist(),autoriser(),urls_generer_url_document_dist(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_toushtml_9f64c8f432bd109400e2a65ea4bac114(),html_9f64c8f432bd109400e2a65ea4bac114(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),inclure_modele(),traiter_modeles(),expanser_liens(),propre(),BOUCLE_herohtml_717e186e8838bff2c26977fd030bc8ef(),html_717e186e8838bff2c26977fd030bc8ef(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='document'
+2022-03-24 14:58:18 172.30.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones
+LIMIT 1
+2022-03-24 14:58:18 172.30.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_couleur_objet_liens' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_couleur_objet_liens
+LIMIT 1
+2022-03-24 14:58:18 172.30.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones_liens
+LIMIT 1
+2022-03-24 15:07:01 172.30.0.1 (pid 17) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_langueshtml_e38a863f56489ed6e259b4b561d6a966(),html_e38a863f56489ed6e259b4b561d6a966(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 15:07:01 172.30.0.1 (pid 17) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_langueshtml_e38a863f56489ed6e259b4b561d6a966(),html_e38a863f56489ed6e259b4b561d6a966(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 15:07:01 172.30.0.1 (pid 17) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_exthtml_ffee1fb84461d85c7cca731f72395470(),html_ffee1fb84461d85c7cca731f72395470(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),inclure_modele(),traiter_modeles(),expanser_liens(),propre(),BOUCLE_herohtml_717e186e8838bff2c26977fd030bc8ef(),html_717e186e8838bff2c26977fd030bc8ef(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 15:07:01 172.30.0.1 (pid 17) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),autoriser_document_voir(),autoriser_dist(),autoriser(),urls_generer_url_document_dist(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_toushtml_9f64c8f432bd109400e2a65ea4bac114(),html_9f64c8f432bd109400e2a65ea4bac114(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),inclure_modele(),traiter_modeles(),expanser_liens(),propre(),BOUCLE_herohtml_717e186e8838bff2c26977fd030bc8ef(),html_717e186e8838bff2c26977fd030bc8ef(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='document'
+2022-03-24 15:07:07 172.30.0.1 (pid 20) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 15:07:07 172.30.0.1 (pid 20) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 15:07:07 172.30.0.1 (pid 20) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 15:07:07 172.30.0.1 (pid 20) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 15:14:06 172.30.0.1 (pid 21) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 15:14:06 172.30.0.1 (pid 21) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 15:14:06 172.30.0.1 (pid 21) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 15:14:06 172.30.0.1 (pid 21) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 15:14:12 172.30.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 15:14:12 172.30.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 15:14:12 172.30.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 15:14:12 172.30.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 15:14:17 172.30.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 15:14:17 172.30.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 15:14:17 172.30.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 15:14:17 172.30.0.1 (pid 23) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones
+LIMIT 1
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_couleur_objet_liens' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_couleur_objet_liens
+LIMIT 1
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones_liens
+LIMIT 1
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_principale_articlehtml_39728d727b0d124c946046d33b8146e1(),html_39728d727b0d124c946046d33b8146e1(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_principale_articlehtml_39728d727b0d124c946046d33b8146e1(),html_39728d727b0d124c946046d33b8146e1(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_8cedb2c3e8aecafe3b0e14f0ebcb23ed(),BOUCLE_articlehtml_8cedb2c3e8aecafe3b0e14f0ebcb23ed(),html_8cedb2c3e8aecafe3b0e14f0ebcb23ed(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'

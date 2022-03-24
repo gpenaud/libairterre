@@ -1,0 +1,32 @@
+<paquet
+	prefix="html5up_editorial"
+	categorie="squelette"
+	version="1.1.8"
+	schema="1.1.1" 
+	etat="stable"
+	compatibilite="[3.1.0;3.2.*]"
+	logo="prive/themes/spip/images/html5up_editorial-64.png"
+	documentation="https://contrib.spip.net/?article4947"
+>
+	<nom>Html5up Editorial </nom>
+	<!-- Squelette responsive «Editorial» de HTML5UP -->
+
+	<auteur>chankalan</auteur>
+	<credit>Matthieu Marcillaud pour le squelette html5up Solid State</credit>
+	<credit lien="https://html5up.net/editorial">HTML5UP (thème graphique)</credit>
+	<credit lien="http://fontawesome.io/license/">Font Awesome</credit>
+
+	<licence>GNU/GPL</licence>
+
+	<necessite nom="saisies" compatibilite="[2.28.0;]" />
+	<necessite nom="scssphp" compatibilite="[1.4.0;]" />
+	<necessite nom="zcore" compatibilite="[2.6.0;]" />
+
+	<utilise nom="oembed" compatibilite="[1.8.0;]" />
+	<utilise nom="compositions" compatibilite="[3.6.0;]" />
+	<utilise nom="contact" compatibilite="[0.16.0;]" />
+	<utilise nom="sociaux" compatibilite="[2.1.0;]" />
+
+	<menu nom="configurer_html5up_editorial" titre="html5up:html5up_editorial_titre" parent="menu_squelette" icone="images/html5up_editorial-16.png" />
+
+</paquet>

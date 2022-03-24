@@ -1,0 +1,89 @@
+a:2:{s:9:"nom_cache";s:38:"be375976992a8d718de4621f599e0f63.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_67b09ea0b10a169d12dc68a182b0d9a9";s:6:"source";s:46:"plugins/html5up_editorial/inclure/sidebar.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"be375976992a8d718de4621f599e0f63.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:3219:"<div class="inner">
+	<section id="search" class="alt">
+		<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/formulaire_.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_FORMULAIRE__dyn('FORMULAIRE_RECHERCHE'), array('plugins/html5up_editorial/inclure/sidebar.html', 'html_67b09ea0b10a169d12dc68a182b0d9a9', '', 3, 'fr'));
+if ($lang_select) lang_select();
+?>
+	</section>
+	
+	<?php echo recuperer_fond( 'inclure/sidemenu', array_merge(array (
+  'id_rubrique' => '6',
+  'id_article' => '104',
+  'type-page' => 'article',
+  'date' => '2022-03-24 16:25:58',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:25:58',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+),array('rubrique_on' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/inclure/sidebar.html','html_67b09ea0b10a169d12dc68a182b0d9a9','',6,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+	
+	
+	<section>
+		
+		<header class="major">
+			<h2>Raccourcis</h2>
+		</header>
+		<div class="mini-posts texte ">
+			<p><a href="c-est-quand/l-agenda/" class='spip_in'>Agenda des activités</a><br class='autobr' />
+<a href="article/newsletter" class='spip_in'>S&#8217;inscrire à la newsletter</a><br class='autobr' />
+<a href="envie-de-contribuer/article/devenir-membre" class='spip_in'>Devenir membre de l&#8217;association</a><br class='autobr' />
+<a href="envie-de-contribuer/article/venir-en-woofing" class='spip_in'>Venir en woofing</a><br class='autobr' />
+<a href="envie-de-contribuer/article/mecenat-et-don" class='spip_in'>Soutenir le projet</a></p>
+		</div>
+		<ul class="actions">
+			<li><a href="article/raccourcis" class="button">Lire la suite</a></li>
+		</ul>
+		
+	</section>
+	
+	 
+	<section>
+		<header class="major">
+			<h2>Restez en contact</h2>
+		</header>
+		
+		<ul class="contact">
+			<li class="fa-envelope-o"><a href="mailto:contact@libairterre.fr">contact@libairterre.fr</a></li>
+			<li class="fa-phone">0608076978</li>
+			<li class="fa-home">La petite brenonnière <br class='autobr' />
+85700 <br class='autobr' />
+La Flocellière
+</li>
+			
+			 
+			<li class="contact_form fa-share">
+				<div class="ajax">
+				<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/formulaire_.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_FORMULAIRE__dyn('FORMULAIRE_CONTACT'), array('plugins/html5up_editorial/inclure/sidebar.html', 'html_67b09ea0b10a169d12dc68a182b0d9a9', '', 37, 'fr'));
+if ($lang_select) lang_select();
+?>
+				</div>
+			</li>
+			
+		</ul>
+		
+	</section>
+	<footer id="footer">
+		<?php echo recuperer_fond( 'footer/article', array_merge(array (
+  'id_rubrique' => '6',
+  'id_article' => '104',
+  'type-page' => 'article',
+  'date' => '2022-03-24 16:25:58',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:25:58',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+),array('lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/inclure/sidebar.html','html_67b09ea0b10a169d12dc68a182b0d9a9','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+	</footer>
+</div><!-- .inner -->";s:5:"notes";s:0:"";s:8:"contexte";a:10:{s:11:"id_rubrique";s:1:"6";s:10:"id_article";s:3:"104";s:9:"type-page";s:7:"article";s:4:"date";s:19:"2022-03-24 16:25:58";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 16:25:58";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:1:"6";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1648139158;s:2:"gz";b:0;s:3:"sig";i:1574789271;}}

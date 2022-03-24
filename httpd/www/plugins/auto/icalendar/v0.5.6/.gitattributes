@@ -1,0 +1,11 @@
+* text=auto !eol
+demo/iter_icalendar.html -text
+http/ical.php -text
+http/ical/event.html -text
+http/ical/inc-event.html -text
+/icalendar.png -text
+inc/ics_to_array.php -text
+lang/paquet-icalendar_fr.php -text
+lib/iCalcreator.class.php -text
+modeles/prochainement.html -text
+/paquet.xml -text

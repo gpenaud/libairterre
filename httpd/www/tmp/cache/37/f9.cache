@@ -1,0 +1,66 @@
+a:2:{s:9:"nom_cache";s:38:"37f9d7f6353337cbbd3b4a1dba7198e6.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_e38a863f56489ed6e259b4b561d6a966";s:6:"source";s:35:"plugins/html5up_editorial/body.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"37f9d7f6353337cbbd3b4a1dba7198e6.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2507:"<body>
+	<div id="wrapper">
+		<div id="main">
+			<div class="inner">
+				<header id="header">
+					<?php echo recuperer_fond( 'header/rubrique', array_merge(array (
+  'id_rubrique' => '24',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:12',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:12',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/body.html','html_e38a863f56489ed6e259b4b561d6a966','',6,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+					 <?php echo recuperer_fond( 'inclure/rezo', array('lang' => 'fr'), array("compil"=>array('plugins/html5up_editorial/body.html','html_e38a863f56489ed6e259b4b561d6a966','',7,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+					
+					
+				</header>
+				
+				<?php echo recuperer_fond( 'breadcrumb/rubrique', array_merge(array (
+  'id_rubrique' => '24',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:12',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:12',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/body.html','html_e38a863f56489ed6e259b4b561d6a966','',19,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				<?php echo recuperer_fond( 'content/rubrique', array_merge(array (
+  'id_rubrique' => '24',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:12',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:12',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/body.html','html_e38a863f56489ed6e259b4b561d6a966','',20,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				
+			</div><!-- .inner -->
+		</div><!-- .main -->
+		<div id="sidebar">
+			<?php echo recuperer_fond( 'inclure/sidebar', array_merge(array (
+  'id_rubrique' => '24',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:12',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:12',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/body.html','html_e38a863f56489ed6e259b4b561d6a966','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+		</div><!-- .sidebar -->
+	</div><!-- .wrapper -->
+</body>";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:11:"id_rubrique";s:2:"24";s:9:"type-page";s:8:"rubrique";s:4:"date";s:19:"2022-03-24 15:14:12";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 15:14:12";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:2:"10";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1648134851;s:2:"gz";b:0;s:3:"sig";i:4136662343;}}

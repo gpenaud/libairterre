@@ -1,0 +1,23 @@
+
+/// Font Face
+/// https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6#file-_mixins-scss
+/// simplification pour uniquement woff2 et woff
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: woff2 woff) {
+	$src: null;
+	@each $ext in $exts {
+		$src: append($src, url(quote($path + "." + $ext)) format(quote($ext)), comma);
+	}
+	@font-face {
+		font-family: quote($name);
+		font-style: $style;
+		font-weight: $weight;
+		src: $src;
+	}
+}
+
+@include font-face(Roboto Slab, fonts/roboto-regular-webfont, 400, normal);
+@include font-face(Roboto Slab, fonts/roboto-bold-webfont, 700, bold);
+@include font-face(Open Sans, fonts/opensans-regular-webfont, 400, normal);
+@include font-face(Open Sans, fonts/opensans-semibold-webfont, 600, normal);
+@include font-face(Open Sans, fonts/opensans-italic-webfont, 400, italic);
+@include font-face(Open Sans, fonts/opensans-semibolditalic-webfont, 600, italic);

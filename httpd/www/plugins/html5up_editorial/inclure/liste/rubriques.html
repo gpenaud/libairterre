@@ -1,0 +1,14 @@
+<B_rubriques>
+	#ANCRE_PAGINATION
+	[<header class="major">
+		<h2>(#ENV{titre,<:rubriques:>})</h2>
+	</header>]
+	<div class="posts">
+		<BOUCLE_rubriques(RUBRIQUES){id_parent=#ID_RUBRIQUE}
+			{!par date}
+			{pagination #ENV{parpage,10}}>
+		<INCLURE{fond=inclure/resume/rubrique,id_rubrique,env} />
+		</BOUCLE_rubriques>
+	</div>
+	[(#PAGINATION{page})]
+</B_rubriques>

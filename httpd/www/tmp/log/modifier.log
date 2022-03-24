@@ -1,0 +1,24 @@
+2021-04-25 17:16:24 91.164.25.75 (pid 29040) :Pri:CRITIQUE: Erreur enregistrement en base evenement/1 champs :array (
+  'date_debut' => 
+  array (
+    'post' => '-0001-11-30 00:00:00',
+    'save' => '0000-00-00 00:00:00',
+  ),
+  'date_fin' => 
+  array (
+    'post' => '-0001-11-30 00:00:00',
+    'save' => '0000-00-00 00:00:00',
+  ),
+)
+2021-04-25 17:21:32 91.164.25.75 (pid 29039) :Pri:CRITIQUE: Erreur enregistrement en base evenement/1 champs :array (
+  'date_debut' => 
+  array (
+    'post' => '-0001-11-30 00:00:00',
+    'save' => '0000-00-00 00:00:00',
+  ),
+  'date_fin' => 
+  array (
+    'post' => '-0001-11-30 00:00:00',
+    'save' => '0000-00-00 00:00:00',
+  ),
+)

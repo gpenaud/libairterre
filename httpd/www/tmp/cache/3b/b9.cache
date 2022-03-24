@@ -1,0 +1,6 @@
+a:2:{s:9:"nom_cache";s:38:"3bb90086e370509cad06185a276d63f9.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_0acfb1d6fd08461a6c83485d03693d0d";s:6:"source";s:34:"squelettes-dist/inclure/forum.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"3bb90086e370509cad06185a276d63f9.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:50:"
+
+<a href="#forum" name="forum" id="forum"></a>
+
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:3:"104";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2022-03-24 16:25:58";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 16:25:58";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1648139158;s:2:"gz";b:0;s:3:"sig";i:4269703066;}}

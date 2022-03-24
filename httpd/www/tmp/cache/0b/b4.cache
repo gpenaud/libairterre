@@ -1,0 +1,73 @@
+a:2:{s:9:"nom_cache";s:38:"0bb40f667571bc9cc0bb80bb96dda960.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_231ada33246e9221f90a0004eb4dea66";s:6:"source";s:47:"plugins/html5up_editorial/content/rubrique.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"0bb40f667571bc9cc0bb80bb96dda960.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:3544:"
+<section>
+	<header class="main">
+		<h1 class="">C&#8217;est ou&nbsp;?</h1>
+	</header>
+
+	<div class="texte "><p><strong>L&#8217;adresse</strong><br class='autobr' />
+La Petite Brenonière - La Flocellière<br class='autobr' />
+85700 Sèvremont</p>
+<p><strong>Venir en voiture</strong>&nbsp;:<br class='autobr' />
+Lien GPS&nbsp;: <a href="https://goo.gl/maps/W1HNqeHr9pEQaP9F6" class='spip_url spip_out auto' rel='nofollow external'>https://goo.gl/maps/W1HNqeHr9pEQaP9F6</a><br class='autobr' />
+La bonne astuce&nbsp;: Suivre la direction du "Puy du Fou" (c&#8217;est très bien indiqué), puis aller jusqu&#8217;à la Flocellière</p>
+<p><strong>Venir en train</strong>&nbsp;:<br class='autobr' />
+Les gares les plus proches sont&nbsp;:
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;pouzauges
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;les herbiers
+<br /><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;cholet</p>
+<p><strong>Venir en vélo / à pied</strong>&nbsp;:<br class='autobr' />
+Vous êtes courageux&nbsp;! Nous vous souhaitons une sublime randonnée et vous préparons l&#8217;emplacement de camping et la douche&nbsp;;)</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168459.08543493546!2d-0.951994495016299!3d46.86047426305378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48065945d8819149%3A0xa59fbe73df0c19!2sLib%20Air%20Terre!5e0!3m2!1sfr!2sfr!4v1620398031226!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+	
+
+	<?php echo recuperer_fond( 'inclure/documents', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 16:26:07',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:26:07',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',10,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+
+
+
+<section>
+	<?php echo recuperer_fond( 'inclure/liste/articles', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 16:26:07',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:26:07',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '6',
+	'parpage' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',27,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+<section>
+	<?php echo recuperer_fond( 'inclure/liste/rubriques', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 16:26:07',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 16:26:07',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '6',
+	'parpage' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',30,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:11:"id_rubrique";s:1:"6";s:9:"type-page";s:8:"rubrique";s:4:"date";s:19:"2022-03-24 16:26:07";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 16:26:07";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:1:"6";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1648139167;s:2:"gz";b:0;s:3:"sig";i:119603209;}}

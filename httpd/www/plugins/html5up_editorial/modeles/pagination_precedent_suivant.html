@@ -1,0 +1,31 @@
+#ENV*{bloc_ancre}
+#SET{bornes,#ENV{page_courante}|bornes_pagination{#ENV{nombre_pages},5}}
+#SET{premiere, #GET{bornes}|reset}
+#SET{derniere, #GET{bornes}|end}
+#SET{pages,#GET{premiere}|range{#GET{derniere}}}
+
+<B_pages>
+<ul class="pagination">
+	[(#SET{item, #ENV{page_courante}|moins{2}|mult{#ENV{pas}} })]
+
+	[(#REM)
+		précédentes
+	]<li>
+		<a href="[(#ENV{url}|parametre_url{#ENV{debut},#GET{item}|?{#GET{item}}}|ancre_url{#ENV{ancre}})]" title="<:public:page_precedente|attribut_html:>" class="button small ajax[ (#ENV{page_courante}|<={1}|?{disabled})]" rel="nofollow" aria-label="Previous">
+			<:public:page_precedente:>
+		</a>
+	</li>
+
+	[(#SET{item, #ENV{page_courante}|mult{#ENV{pas}} })]
+
+	[(#REM)
+		suivantes
+	]<li>
+		<a href="[(#ENV{url}|parametre_url{#ENV{debut},#GET{item}|?{#GET{item}}}|ancre_url{#ENV{ancre}})]" title="<:public:page_suivante|attribut_html:>" class="button small ajax[ (#ENV{page_courante}|>={#ENV{nombre_pages}}|oui)disabled]" rel="nofollow" aria-label="Next">
+			<:public:page_suivante:>
+		</a>
+	</li>
+
+</ul>
+</B_pages>
+

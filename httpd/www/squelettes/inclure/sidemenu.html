@@ -1,0 +1,38 @@
+[(#REM)
+	Barre de navigation, ouverte sur la hierarchie courante
+
+	On fait un plan, et, quand on avance vers une rubrique,
+	on l'affiche si son parent est expose ou est la racine du site. ]
+<B_rubriques>
+<nav id="menu">
+	<header class="major">
+	<center><em>Bienvenue sur le site du LibAirTerre</em></center></br>
+	</header>
+	
+	<ul>
+		<li><a class="accueil" href="#URL_SITE_SPIP"><:accueil_site:></a></li>
+	
+		<BOUCLE_rubriques(RUBRIQUES){par num titre, titre}{racine}>
+		[(#REM) si plus d'un article, la liste des articles, si au moins une sous-rubrique, la liste des sous-rubriques ]
+			#SET{smenu#ID_RUBRIQUE,non}
+			
+			<BOUCLE_test_rubriques(RUBRIQUES){id_parent}{0,1}>
+			</BOUCLE_test_rubriques>#SET{smenu#ID_RUBRIQUE,oui}</B_test_rubriques>
+			
+		<li>
+			[(#GET{smenu#ID_RUBRIQUE}|=={oui}|non)
+			<a href="#URL_RUBRIQUE"[ class="(#EXPOSE)"]>[(#TITRE)]</a>]
+			[(#GET{smenu#ID_RUBRIQUE}|=={oui}|oui)
+			<span class="opener[ (#EXPOSE) active]">[(#TITRE)]</span>
+			<ul>
+				<INCLURE{fond=inclure/sidemenu-articles,env,id_rubrique,id_article} />
+				<INCLURE{fond=inclure/sidemenu-rubriques,env,id_rubrique,rubrique_on} />
+				
+			</ul>]
+		</li>
+		</BOUCLE_rubriques>
+	
+	</ul>
+	
+</nav>
+</B_rubriques>

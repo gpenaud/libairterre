@@ -1,0 +1,29 @@
+a:2:{s:9:"nom_cache";s:38:"f54f5073c52771661727453e9710e48e.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2320f7973f101632f64c7ed15938d3c7";s:6:"source";s:42:"plugins/html5up_editorial/footer/dist.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"f54f5073c52771661727453e9710e48e.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1383:"<p class="copyright">
+	 2019-
+	2021  &mdash; Lib&#8217;Air&#8217;Terre | 
+	<a rel="contents" href="spip.php?page=plan">Plan du site</a> | 
+	<?php
+if (isset($GLOBALS['visiteur_session']['id_auteur']) AND $GLOBALS['visiteur_session']['id_auteur']) {
+?>	<a href="<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/url_logout.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_URL_LOGOUT_dyn(''), array('plugins/html5up_editorial/footer/dist.html', 'html_2320f7973f101632f64c7ed15938d3c7', '', 7, 'fr'));
+if ($lang_select) lang_select();
+?>" rel="nofollow">Se déconnecter</a> | 
+	<?php
+	if (include_spip('inc/autoriser') AND autoriser('ecrire')) {
+?>	<a href="ecrire/">Espace privé</a> | 
+	<?php
+	}
+} else {
+?>	<a href="spip.php?page=login&amp;url=.%2F" rel="nofollow" class='login_modal'>Se connecter</a> | 
+	<?php
+}
+?>	<a href="https://html5up.net/editorial" title="theme graphique par html5up" class="spip_out">HTML5 UP</a> | 
+	<small class="generator">
+		<a href="https://www.spip.net/" rel="generator" title="Site r&#233;alis&#233; avec SPIP" class="spip_out">
+			<?php echo recuperer_fond( 'inclure/logospip', array('lang' => 'fr'), array("compil"=>array('plugins/html5up_editorial/footer/dist.html','html_2320f7973f101632f64c7ed15938d3c7','',20,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+		</a>
+	</small>
+</p>";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:4:"date";s:19:"2021-06-04 14:34:28";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-06-04 14:34:28";s:18:"date_redac_default";b:1;s:9:"type-page";s:8:"sommaire";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1622817267;s:2:"gz";b:0;s:3:"sig";i:2015384292;}}

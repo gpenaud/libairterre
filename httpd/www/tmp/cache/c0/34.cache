@@ -1,0 +1,9 @@
+a:2:{s:9:"nom_cache";s:38:"c0344b27c100526bd8282242ee4ea61f.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_63bc97151e8a979b7dd4cc6ad3cda007";s:6:"source";s:24:"plugins/z-core/page.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"c0344b27c100526bd8282242ee4ea61f.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:413:"<?php echo recuperer_fond( 'structure', array_merge(array (
+  'date' => '2021-06-04 14:34:28',
+  'date_default' => true,
+  'date_redac' => '2021-06-04 14:34:28',
+  'date_redac_default' => true,
+),array('type-page' => 'sommaire',
+	'composition' => '',
+	'lang' => 'fr')), array("compil"=>array('plugins/z-core/page.html','html_63bc97151e8a979b7dd4cc6ad3cda007','',1,$GLOBALS['spip_lang'])), _request("connect"));
+?>";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2021-06-04 14:34:28";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-06-04 14:34:28";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1622817267;s:2:"gz";b:0;s:3:"sig";i:1452715221;}}

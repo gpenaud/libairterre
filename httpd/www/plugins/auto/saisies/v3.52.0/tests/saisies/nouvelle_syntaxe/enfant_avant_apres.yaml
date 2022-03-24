@@ -1,0 +1,32 @@
+heritage:
+titre: 'tata'
+description: 'tata_description'
+heritage:
+  parent: 'ancetre'
+  enlever_options:
+    - 'placeholder'
+    - 'type'
+  ajouter_options:
+        -
+          inserer_apres: 'explication'
+          saisie: 'input'
+          options:
+            nom: 'une option en plus après explication'
+            label: 'une_option_en_plus'
+            size: 50
+        -
+          inserer_avant: 'label'
+          saisie: 'input'
+          options:
+            nom: 'une option en plus avant le label'
+            label: 'une_option_en_plus'
+            size: 50
+defaut:
+  options:
+    readonly: 'on'
+    label: 'tata'
+    sql: 'BIGINT (255)',
+  verifier:
+    type: 'tata'
+    options:
+      normaliser: true

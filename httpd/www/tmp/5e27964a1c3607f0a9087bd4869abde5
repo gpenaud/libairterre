@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="ng-csp" data-placeholder-focus="false" lang="fr" data-locale="fr_FR" >
+	<head data-requesttoken="c+H9DzvjT7aNDlkoj98DeGccwBBO6lpmoJPdmITO5jU=:G9OXXFyADv7sT2xr7Ig1NBZ0g1l7oBA/7MeywOmnnmU=">
+		<meta charset="utf-8">
+		<title>
+		Framagenda		</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<meta name="theme-color" content="#6A5687">
+		<link rel="icon" href="/core/img/favicon.ico">
+		<link rel="apple-touch-icon" href="/core/img/favicon-touch.png">
+		<link rel="mask-icon" sizes="any" href="/core/img/favicon-mask.svg" color="#6A5687">
+		<link rel="stylesheet" href="/css/core/7e07-a30e-server.css?v=41545bc493ea402b7a9b19b640ab406b-3df171fe-2">
+<link rel="stylesheet" href="/css/core/7e07-a30e-css-variables.css?v=41545bc493ea402b7a9b19b640ab406b-3df171fe-2">
+<link rel="stylesheet" href="/apps/apporder/css/apporder.css?v=35ff2a10-2">
+<link rel="stylesheet" href="/apps/files_rightclick/css/app.css?v=46c85d58-2">
+<link rel="stylesheet" href="/css/calendar/34e9-a30e-calendar.css?v=41545bc493ea402b7a9b19b640ab406b-34e90de1-2">
+<link rel="stylesheet" href="/themes/framasoft/core/css/server.css?v=3df171fe-2">
+		<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/core/js/oc.js?v=3df171fe"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/core/js/dist/main.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/core/js/dist/files_fileinfo.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/core/js/dist/files_client.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/js/core/merged-template-prepend.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/core/l10n/fr.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/files_sharing/l10n/fr.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/files_sharing/js/dist/main.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/apporder/l10n/fr.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/apporder/js/apporder.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/files_pdfviewer/js/files_pdfviewer-public.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/files_rightclick/l10n/fr.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/files_rightclick/js/script.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/files_rightclick/js/files.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/theming/l10n/fr.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/theming/js/theming.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/calendar/l10n/fr.js?v=3df171fe-2"></script>
+<script nonce="YytIOUR6dmpUN2FORGxrb2o5OERlR2Njd0JCTzZscG1vSlBkbUlUTzVqVT06RzlPWFhGeUFEdjdzVDJ4cjdJZzFOQlowZzFsN29CQS83TWV5d09tbm5tVT0=" defer src="/apps/calendar/js/calendar.js?v=3df171fe-2"></script>
+		<link rel="stylesheet" href="/css/icons/icons-vars.css?v=1617960602"/><link rel="stylesheet" media="(prefers-color-scheme: dark)" href="/apps/accessibility/css/user-a82fd95db10ff25dfad39f07372ebe37"/><link rel="stylesheet" href="/apps/theming/styles?v=2"/><meta name="robots" content="noindex, nofollow"/>	</head>
+	<body id="body-public" class="layout-base">
+		<noscript>
+	<div id="nojavascript">
+		<div>
+			Cette application requiert JavaScript pour fonctionner correctement. Veuillez <a href="https://www.enable-javascript.com/" target="_blank" rel="noreferrer noopener">activer JavaScript</a> et recharger la page.		</div>
+	</div>
+</noscript>
+					<input type="hidden" id="initial-state-calendar-app_version" value="IjIuMi4wIg==">
+					<input type="hidden" id="initial-state-calendar-event_limit" value="dHJ1ZQ==">
+					<input type="hidden" id="initial-state-calendar-first_run" value="ZmFsc2U=">
+					<input type="hidden" id="initial-state-calendar-initial_view" value="ImRheUdyaWRNb250aCI=">
+					<input type="hidden" id="initial-state-calendar-show_weekends" value="dHJ1ZQ==">
+					<input type="hidden" id="initial-state-calendar-show_week_numbers" value="ZmFsc2U=">
+					<input type="hidden" id="initial-state-calendar-skip_popover" value="dHJ1ZQ==">
+					<input type="hidden" id="initial-state-calendar-talk_enabled" value="ZmFsc2U=">
+					<input type="hidden" id="initial-state-calendar-timezone" value="ImF1dG9tYXRpYyI=">
+					<input type="hidden" id="initial-state-calendar-slot_duration" value="IjAwOjMwOjAwIg==">
+					<input type="hidden" id="initial-state-calendar-show_tasks" value="dHJ1ZQ==">
+					<input type="hidden" id="initial-state-calendar-tasks_enabled" value="ZmFsc2U=">
+					<input type="hidden" id="initial-state-core-config" value="eyJzZXNzaW9uX2xpZmV0aW1lIjoxNDQwLCJzZXNzaW9uX2tlZXBhbGl2ZSI6dHJ1ZSwiYXV0b19sb2dvdXQiOmZhbHNlLCJ2ZXJzaW9uIjoiMjAuMC44LjEiLCJ2ZXJzaW9uc3RyaW5nIjoiMjAuMC44IiwiZW5hYmxlX2F2YXRhcnMiOnRydWUsImxvc3RfcGFzc3dvcmRfbGluayI6bnVsbCwibW9kUmV3cml0ZVdvcmtpbmciOnRydWUsInNoYXJpbmcubWF4QXV0b2NvbXBsZXRlUmVzdWx0cyI6MCwic2hhcmluZy5taW5TZWFyY2hTdHJpbmdMZW5ndGgiOjAsImJsYWNrbGlzdF9maWxlc19yZWdleCI6IlxcLihwYXJ0fGZpbGVwYXJ0KSQifQ==">
+					<input type="hidden" id="initial-state-core-capabilities" value="eyJjb3JlIjp7InBvbGxpbnRlcnZhbCI6NjAsIndlYmRhdi1yb290IjoicmVtb3RlLnBocFwvd2ViZGF2In0sImJydXRlZm9yY2UiOnsiZGVsYXkiOjB9LCJmaWxlcyI6eyJiaWdmaWxlY2h1bmtpbmciOnRydWUsImJsYWNrbGlzdGVkX2ZpbGVzIjpbIi5odGFjY2VzcyJdLCJkaXJlY3RFZGl0aW5nIjp7InVybCI6Imh0dHBzOlwvXC9mcmFtYWdlbmRhLm9yZ1wvb2NzXC92Mi5waHBcL2FwcHNcL2ZpbGVzXC9hcGlcL3YxXC9kaXJlY3RFZGl0aW5nIiwiZXRhZyI6IjRiMDcxNDZkNTY3ZTdjYjE1YjU3ZGJiMjA0YmUzNDk0In0sImNvbW1lbnRzIjp0cnVlLCJ1bmRlbGV0ZSI6dHJ1ZSwidmVyc2lvbmluZyI6dHJ1ZX0sImFjdGl2aXR5Ijp7ImFwaXYyIjpbImZpbHRlcnMiLCJmaWx0ZXJzLWFwaSIsInByZXZpZXdzIiwicmljaC1zdHJpbmdzIl19LCJvY20iOnsiZW5hYmxlZCI6dHJ1ZSwiYXBpVmVyc2lvbiI6IjEuMC1wcm9wb3NhbDEiLCJlbmRQb2ludCI6Imh0dHBzOlwvXC9mcmFtYWdlbmRhLm9yZ1wvb2NtIiwicmVzb3VyY2VUeXBlcyI6W3sibmFtZSI6ImZpbGUiLCJzaGFyZVR5cGVzIjpbInVzZXIiLCJncm91cCJdLCJwcm90b2NvbHMiOnsid2ViZGF2IjoiXC9wdWJsaWMucGhwXC93ZWJkYXZcLyJ9fV19LCJkYXYiOnsiY2h1bmtpbmciOiIxLjAifSwiZGVjayI6eyJ2ZXJzaW9uIjoiMS4yLjYiLCJjYW5DcmVhdGVCb2FyZHMiOnRydWV9LCJub3RlcyI6eyJhcGlfdmVyc2lvbiI6WyIwLjIiLCIxLjEiXSwidmVyc2lvbiI6IjQuMC40In0sIm5vdGlmaWNhdGlvbnMiOnsib2NzLWVuZHBvaW50cyI6WyJsaXN0IiwiZ2V0IiwiZGVsZXRlIiwiZGVsZXRlLWFsbCIsImljb25zIiwicmljaC1zdHJpbmdzIiwiYWN0aW9uLXdlYiIsInVzZXItc3RhdHVzIl0sInB1c2giOlsiZGV2aWNlcyIsIm9iamVjdC1kYXRhIiwiZGVsZXRlIl0sImFkbWluLW5vdGlmaWNhdGlvbnMiOlsib2NzIiwiY2xpIl19LCJwYXNzd29yZF9wb2xpY3kiOnsibWluTGVuZ3RoIjo2LCJlbmZvcmNlTm9uQ29tbW9uUGFzc3dvcmQiOnRydWUsImVuZm9yY2VOdW1lcmljQ2hhcmFjdGVycyI6ZmFsc2UsImVuZm9yY2VTcGVjaWFsQ2hhcmFjdGVycyI6ZmFsc2UsImVuZm9yY2VVcHBlckxvd2VyQ2FzZSI6ZmFsc2UsImFwaSI6eyJnZW5lcmF0ZSI6Imh0dHBzOlwvXC9mcmFtYWdlbmRhLm9yZ1wvb2NzXC92Mi5waHBcL2FwcHNcL3Bhc3N3b3JkX3BvbGljeVwvYXBpXC92MVwvZ2VuZXJhdGUiLCJ2YWxpZGF0ZSI6Imh0dHBzOlwvXC9mcmFtYWdlbmRhLm9yZ1wvb2NzXC92Mi5waHBcL2FwcHNcL3Bhc3N3b3JkX3BvbGljeVwvYXBpXC92MVwvdmFsaWRhdGUifX0sInJlZ2lzdHJhdGlvbiI6eyJlbmFibGVkIjp0cnVlLCJhcGlSb290IjoiXC9vY3NcL3YyLnBocFwvYXBwc1wvcmVnaXN0cmF0aW9uXC9hcGlcL3YxXC8iLCJhcGlMZXZlbCI6InYxIn0sImZpbGVzX3NoYXJpbmciOnsic2hhcmVieW1haWwiOnsiZW5hYmxlZCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnsiZW5hYmxlZCI6dHJ1ZX0sInBhc3N3b3JkIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX0sImV4cGlyZV9kYXRlIjp7ImVuYWJsZWQiOnRydWV9fSwiYXBpX2VuYWJsZWQiOnRydWUsInB1YmxpYyI6eyJlbmFibGVkIjp0cnVlLCJwYXNzd29yZCI6eyJlbmZvcmNlZCI6ZmFsc2UsImFza0Zvck9wdGlvbmFsUGFzc3dvcmQiOmZhbHNlfSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6ZmFsc2V9LCJtdWx0aXBsZV9saW5rcyI6dHJ1ZSwiZXhwaXJlX2RhdGVfaW50ZXJuYWwiOnsiZW5hYmxlZCI6ZmFsc2V9LCJzZW5kX21haWwiOnRydWUsInVwbG9hZCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnRydWV9LCJyZXNoYXJpbmciOnRydWUsInVzZXIiOnsic2VuZF9tYWlsIjpmYWxzZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX19LCJncm91cF9zaGFyaW5nIjpmYWxzZSwiZ3JvdXAiOnsiZW5hYmxlZCI6ZmFsc2UsImV4cGlyZV9kYXRlIjp7ImVuYWJsZWQiOnRydWV9fSwiZGVmYXVsdF9wZXJtaXNzaW9ucyI6MzEsImZlZGVyYXRpb24iOnsib3V0Z29pbmciOnRydWUsImluY29taW5nIjp0cnVlLCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sInNoYXJlZSI6eyJxdWVyeV9sb29rdXBfZGVmYXVsdCI6ZmFsc2V9fSwic3ByZWVkIjp7ImZlYXR1cmVzIjpbImF1ZGlvIiwidmlkZW8iLCJjaGF0LXYyIiwiY29udmVyc2F0aW9uLXYyIiwiZ3Vlc3Qtc2lnbmFsaW5nIiwiZW1wdHktZ3JvdXAtcm9vbSIsImd1ZXN0LWRpc3BsYXktbmFtZXMiLCJtdWx0aS1yb29tLXVzZXJzIiwiZmF2b3JpdGVzIiwibGFzdC1yb29tLWFjdGl2aXR5Iiwibm8tcGluZyIsInN5c3RlbS1tZXNzYWdlcyIsIm1lbnRpb24tZmxhZyIsImluLWNhbGwtZmxhZ3MiLCJub3RpZmljYXRpb24tbGV2ZWxzIiwiaW52aXRlLWdyb3Vwcy1hbmQtbWFpbHMiLCJsb2NrZWQtb25lLXRvLW9uZS1yb29tcyIsInJlYWQtb25seS1yb29tcyIsImNoYXQtcmVhZC1tYXJrZXIiLCJ3ZWJpbmFyeS1sb2JieSIsInN0YXJ0LWNhbGwtZmxhZyIsImNoYXQtcmVwbGllcyIsImNpcmNsZXMtc3VwcG9ydCIsImZvcmNlLW11dGUiLCJjb252ZXJzYXRpb24tdjMiLCJzaXAtc3VwcG9ydCIsImNoYXQtcmVmZXJlbmNlLWlkIl0sImNvbmZpZyI6eyJhdHRhY2htZW50cyI6eyJhbGxvd2VkIjpmYWxzZX0sImNoYXQiOnsibWF4LWxlbmd0aCI6MzIwMDB9LCJjb252ZXJzYXRpb25zIjp7ImNhbi1jcmVhdGUiOmZhbHNlfX19LCJ0aGVtaW5nIjp7Im5hbWUiOiJGcmFtYWdlbmRhIiwidXJsIjoiaHR0cHM6XC9cL2ZyYW1hZ2VuZGEub3JnIiwic2xvZ2FuIjoiR1x1MDBlOXJleiBldCBwYXJ0YWdleiB2b3MgYWdlbmRhcyBldCBjb250YWN0cyIsImNvbG9yIjoiIzZBNTY4NyIsImNvbG9yLXRleHQiOiIjZmZmZmZmIiwiY29sb3ItZWxlbWVudCI6IiM2QTU2ODciLCJjb2xvci1lbGVtZW50LWJyaWdodCI6IiM2QTU2ODciLCJjb2xvci1lbGVtZW50LWRhcmsiOiIjNkE1Njg3IiwibG9nbyI6Imh0dHBzOlwvXC9mcmFtYWdlbmRhLm9yZ1wvY29yZVwvaW1nXC9sb2dvXC9sb2dvLnN2Zz92PTIiLCJiYWNrZ3JvdW5kIjoiIzZBNTY4NyIsImJhY2tncm91bmQtcGxhaW4iOnRydWUsImJhY2tncm91bmQtZGVmYXVsdCI6dHJ1ZSwibG9nb2hlYWRlciI6Imh0dHBzOlwvXC9mcmFtYWdlbmRhLm9yZ1wvY29yZVwvaW1nXC9sb2dvXC9sb2dvLnN2Zz92PTIiLCJmYXZpY29uIjoiaHR0cHM6XC9cL2ZyYW1hZ2VuZGEub3JnXC9jb3JlXC9pbWdcL2xvZ29cL2xvZ28uc3ZnP3Y9MiJ9LCJ1c2VyX3N0YXR1cyI6eyJlbmFibGVkIjp0cnVlLCJzdXBwb3J0c19lbW9qaSI6dHJ1ZX0sIndlYXRoZXJfc3RhdHVzIjp7ImVuYWJsZWQiOnRydWV9fQ==">
+					<input type="hidden" id="initial-state-accessibility-data" value="eyJ0aGVtZSI6ZmFsc2UsImhpZ2hjb250cmFzdCI6ZmFsc2V9">
+					<input type="hidden" id="initial-state-theming-data" value="eyJuYW1lIjoiRnJhbWFnZW5kYSIsInVybCI6Imh0dHBzOlwvXC9mcmFtYWdlbmRhLm9yZyIsInNsb2dhbiI6IkdcdTAwZTlyZXogZXQgcGFydGFnZXogdm9zIGFnZW5kYXMgZXQgY29udGFjdHMiLCJjb2xvciI6IiM2QTU2ODciLCJpbXByaW50VXJsIjoiIiwicHJpdmFjeVVybCI6IiIsImludmVydGVkIjpmYWxzZSwiY2FjaGVCdXN0ZXIiOiIyIn0=">
+				<div id="content" class="app-public" role="main">
+					</div>
+	</body>
+</html>

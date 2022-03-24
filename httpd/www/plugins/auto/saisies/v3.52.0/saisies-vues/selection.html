@@ -1,0 +1,10 @@
+[(#REM) data peut être une chaine qu'on sait décomposer ]
+<BOUCLE_simple(CONDITION){si #ENV{multiple}|non}>
+#SET{data, #ENV*{data, #ENV*{datas}}|saisies_chaine2tableau|saisies_aplatir_tableau}
+[(#ENV{cle_ou_valeur,valeur}|=={cle}|?{
+	[<p>(#ENV{valeur})</p>],
+	[<p>(#GET{data/#ENV{valeur}})</p>]
+})]
+</BOUCLE_simple>
+<INCLURE{fond=saisies-vues/selection_multiple,env} />
+<//B_simple>

@@ -1,0 +1,49 @@
+[(#REM) Fierement fabrique avec SPIP ]
+<meta name="generator" content="SPIP[ (#SPIP_VERSION)]" />
+
+[(#REM) Divers ]
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+[(#REM) Lien vers le flux RSS du site ]
+[<link rel="alternate" type="application/rss+xml" title="<:syndiquer_site:>" href="(#URL_PAGE{backend})" />]
+
+[<link rel="stylesheet" href="(#CSS{css/main.css})" type="text/css" />]
+[<!--\[if IE 8\]><link rel="stylesheet" href="(#CSS{css/ie8.css})" /><!\[endif\]-->]
+[<!--\[if IE 9\]><link rel="stylesheet" href="(#CSS{css/ie9.css})" /><!\[endif\]-->]
+
+[<link rel="stylesheet" href="(#CSS{css/spip.css})" type="text/css" />]
+[<link rel="stylesheet" href="(#CSS{css/spip.form.css})" type="text/css" />]
+[<link rel="stylesheet" href="(#CSS{css/spip.comment.css})" type="text/css" />]
+[<link rel="stylesheet" href="(#CSS{css/spip.list.css})" type="text/css" />]
+[<link rel="stylesheet" href="(#CSS{css/spip.petition.css})" type="text/css" />]
+[<link rel="stylesheet" href="(#CSS{css/spip.pagination.css})" type="text/css" />]
+[<link rel="stylesheet" href="(#CSS{css/spip.portfolio.css})" type="text/css" />]
+
+[(#REM) Balise permettant aux plugins d'inserer des fichiers CSS ]
+#INSERT_HEAD_CSS
+
+[(#REM) Feuille de style du theme ]
+[<link rel="stylesheet" href="(#CSS{css/theme.css})" type="text/css" />]
+
+[(#REM) Feuille de style CSS pour l'impression, n'existe pas par defaut ]
+[<link rel="stylesheet" href="(#CSS{css/print.css})" type="text/css" media="print" />]
+
+[(#CHEMIN{inc-theme-head.html}|oui)
+	#INCLURE{fond=inc-theme-head,env}
+]
+
+[(#REM) Feuille de style personnalisee pour surcharger les precedentes ]
+[<link rel="stylesheet" href="(#CSS{css/perso.css})" type="text/css" />]
+
+[(#REM) Balise permettant aux plugins d'inserer des appels javascript ou css ; ]
+#INSERT_HEAD
+
+[(#REM) Scripts ]
+[<script src="(#CHEMIN{javascript/skel.min.js})" type="text/javascript"></script>]
+[<script src="(#CHEMIN{javascript/util.js})" type="text/javascript"></script>]
+[<script src="(#CHEMIN{javascript/main.js})" type="text/javascript"></script>]
+<!--[if lt IE 9]>
+[<script type='text/javascript' src="(#CHEMIN{javascript/ie/html5shiv.js})"></script>]
+<![endif]-->
+[(#REM) Vos scripts ]
+[<script src="(#CHEMIN{javascript/perso.js})" type="text/javascript"></script>]

@@ -1,0 +1,86 @@
+a:2:{s:9:"nom_cache";s:38:"10e1a80bf6dde0c1876e5d4ff3c82a04.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_858e8dc69ca03b789ee4cb20a57f34b3";s:6:"source";s:43:"plugins/html5up_editorial/inclure/head.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"10e1a80bf6dde0c1876e5d4ff3c82a04.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:4674:"
+<meta name="generator" content="SPIP 3.2.3 [24211]" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Syndiquer tout le site" href="spip.php?page=backend" />
+
+<link rel="stylesheet" href="local/cache-scss/main-cssify-a76244a.css?1622815319" type="text/css" />
+<!--[if IE 8]><link rel="stylesheet" href="local/cache-scss/ie8-cssify-6951136.css?1622815319" /><![endif]-->
+<!--[if IE 9]><link rel="stylesheet" href="local/cache-scss/ie9-cssify-d4fe10e.css?1622815319" /><![endif]-->
+
+<link rel="stylesheet" href="local/cache-scss/spip-cssify-458115b.css?1622815319" type="text/css" />
+
+
+
+
+
+
+
+
+<script type='text/javascript'>var var_zajax_content='content';</script><script type="text/javascript">/* <![CDATA[ */
+var box_settings = {tt_img:true,sel_g:"#documents_portfolio a[type='image/jpeg'],#documents_portfolio a[type='image/png'],#documents_portfolio a[type='image/gif']",sel_c:".mediabox",trans:"elastic",speed:"200",ssSpeed:"2500",maxW:"90%",maxH:"90%",minW:"400px",minH:"",opa:"0.9",str_ssStart:"Diaporama",str_ssStop:"Arrêter",str_cur:"{current}/{total}",str_prev:"Précédent",str_next:"Suivant",str_close:"Fermer",splash_url:""};
+var box_settings_splash_width = "600px";
+var box_settings_splash_height = "90%";
+var box_settings_iframe = true;
+/* ]]> */</script>
+<!-- insert_head_css --><link rel="stylesheet" href="plugins-dist/mediabox/colorbox/black-striped/colorbox.css" type="text/css" media="all" /><link rel='stylesheet' type='text/css' media='all' href='plugins-dist/porte_plume/css/barre_outils.css?1622815319' />
+<link rel='stylesheet' type='text/css' media='all' href='local/cache-css/cssdyn-css_barre_outils_icones_css-c740b21f.css' />
+<link rel="stylesheet" type="text/css" href="plugins/sociaux/lib/socicon/style.css" />
+<link rel="stylesheet" type="text/css" href="plugins/sociaux/css/sociaux.css" />
+<link rel="stylesheet" type="text/css" href="plugins/agenda-v3/css/spip.agenda.css" /><link rel="stylesheet" type="text/css" href="plugins/oembed/css/oembed.css?1622815319" />
+
+<link rel='stylesheet' href='plugins/auto/videos/v0.12.9/theme/css/videos.css' type='text/css' media='all' />
+
+
+
+<link rel="stylesheet" href="local/cache-scss/theme-cssify-69f8257.css?1622815319" type="text/css" />
+
+
+
+
+
+
+
+
+
+
+
+<script src="prive/javascript/jquery.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery-migrate-3.0.1.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.form.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.autosave.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.placeholder-label.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/ajaxCallback.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/js.cookie.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.cookie.js?1622815319" type="text/javascript"></script>
+
+<script src="plugins/auto/videos/v0.12.9/lib/html5media-1.1.8/api/html5media.min.js?1622815319" type="text/javascript"></script>
+<!-- insert_head -->
+	<script src="plugins-dist/mediabox/javascript/jquery.colorbox.js?1622815319" type="text/javascript"></script>
+	<script src="plugins-dist/mediabox/javascript/spip.mediabox.js?1622815319" type="text/javascript"></script><script type='text/javascript' src='plugins-dist/porte_plume/javascript/jquery.markitup_pour_spip.js?1622815319'></script>
+<script type='text/javascript' src='plugins-dist/porte_plume/javascript/jquery.previsu_spip.js?1622815319'></script>
+<script type='text/javascript' src='local/cache-js/jsdyn-javascript_porte_plume_start_js-a78415d9.js'></script>
+<?php if (!in_array(_request(_SPIP_PAGE),array('login')) AND strpos($_SERVER['REQUEST_URI'],'debut_')===false){?><link rel="alternate" type="application/json+oembed" href="<?php include_spip('inc/filtres_mini');echo parametre_url(url_absolue("oembed.api/?format=json"), "url", url_absolue(self()));?>" />
+<?php } ?>
+<script type='text/javascript'>var CONFIG_WMODE = 'opaque';</script>
+
+
+
+<script src="plugins/html5up_editorial/javascript/skel.min.js" type="text/javascript"></script>
+<script src="plugins/html5up_editorial/javascript/util.js" type="text/javascript"></script>
+<script src="plugins/html5up_editorial/javascript/main.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src="plugins/html5up_editorial/javascript/ie/html5shiv.js"></script>
+<![endif]-->
+
+<script src="plugins/html5up_editorial/javascript/perso.js" type="text/javascript"></script>";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2021-06-04 14:34:28";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-06-04 14:34:28";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1622817267;s:2:"gz";b:0;s:3:"sig";i:3445431405;}}

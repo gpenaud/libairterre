@@ -1,0 +1,215 @@
+a:2:{s:9:"nom_cache";s:38:"8fbda6495273cb9ea1f8a5fff2c2bdc3.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_3a075e44725c51fa931c05bac0447958";s:6:"source";s:32:"squelettes/inclure/sidemenu.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"8fbda6495273cb9ea1f8a5fff2c2bdc3.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:5610:"
+
+<nav id="menu">
+	<header class="major">
+	<center><em>Bienvenue sur le site du LibAirTerre</em></center></br>
+	</header>
+	
+	<ul>
+		<li><a class="accueil" href="https://www.libairterre.fr">Accueil</a></li>
+	
+		
+		
+			
+			
+			
+		<li>
+			
+			 
+			<span class="opener">C&#8217;est quoi&nbsp;?</span>
+			<ul>
+				<?php echo recuperer_fond( 'inclure/sidemenu-articles', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:21',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:21',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '2',
+	'id_article' => '',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu.html','html_3a075e44725c51fa931c05bac0447958','',27,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				<?php echo recuperer_fond( 'inclure/sidemenu-rubriques', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:21',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:21',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '2',
+	'rubrique_on' => '6',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu.html','html_3a075e44725c51fa931c05bac0447958','',28,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				
+			</ul>
+		</li>
+		
+		
+			
+			
+			
+		<li>
+			
+			 
+			<span class="opener">C&#8217;est qui&nbsp;?</span>
+			<ul>
+				<?php echo recuperer_fond( 'inclure/sidemenu-articles', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:21',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:21',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '10',
+	'id_article' => '',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu.html','html_3a075e44725c51fa931c05bac0447958','',27,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				<?php echo recuperer_fond( 'inclure/sidemenu-rubriques', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:21',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:21',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '10',
+	'rubrique_on' => '6',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu.html','html_3a075e44725c51fa931c05bac0447958','',28,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				
+			</ul>
+		</li>
+		
+		
+			
+			
+		<li>
+			 
+			<a href="c-est-ou/" class="on">C&#8217;est ou&nbsp;?</a>
+			
+		</li>
+		
+		
+			
+			
+			
+		<li>
+			
+			 
+			<span class="opener">C&#8217;est quand&nbsp;? (activités)</span>
+			<ul>
+				<?php echo recuperer_fond( 'inclure/sidemenu-articles', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:21',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:21',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '20',
+	'id_article' => '',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu.html','html_3a075e44725c51fa931c05bac0447958','',27,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				<?php echo recuperer_fond( 'inclure/sidemenu-rubriques', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:21',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:21',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '20',
+	'rubrique_on' => '6',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu.html','html_3a075e44725c51fa931c05bac0447958','',28,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				
+			</ul>
+		</li>
+		
+		
+			
+			
+		<li>
+			 
+			<a href="envie-de-contribuer/">Envie de contribuer&nbsp;?</a>
+			
+		</li>
+		
+		
+			
+			
+		<li>
+			 
+			<a href="faq/">FAQ</a>
+			
+		</li>
+		
+		
+			
+			
+			
+		<li>
+			
+			 
+			<span class="opener">Archives</span>
+			<ul>
+				<?php echo recuperer_fond( 'inclure/sidemenu-articles', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:21',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:21',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '22',
+	'id_article' => '',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu.html','html_3a075e44725c51fa931c05bac0447958','',27,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				<?php echo recuperer_fond( 'inclure/sidemenu-rubriques', array_merge(array (
+  'id_rubrique' => '6',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:21',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:21',
+  'date_redac_default' => true,
+  'id_secteur' => '6',
+  'composition' => '',
+  'lang' => 'fr',
+  'rubrique_on' => '6',
+),array('id_rubrique' => '22',
+	'rubrique_on' => '6',
+	'lang' => 'fr')), array("compil"=>array('squelettes/inclure/sidemenu.html','html_3a075e44725c51fa931c05bac0447958','',28,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+				
+			</ul>
+		</li>
+		
+	
+	</ul>
+	
+</nav>
+";s:5:"notes";s:0:"";s:8:"contexte";a:10:{s:11:"id_rubrique";s:1:"6";s:9:"type-page";s:8:"rubrique";s:4:"date";s:19:"2022-03-24 15:14:21";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 15:14:21";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:1:"6";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";s:11:"rubrique_on";s:1:"6";}s:12:"lastmodified";i:1648134861;s:2:"gz";b:0;s:3:"sig";i:3259338206;}}

@@ -1,0 +1,33 @@
+[<p id="slogan_site_spip">(#SLOGAN_SITE_SPIP)</p>]
+#SET{exclus,#ARRAY}
+<B_hero>
+<section id="banner">
+	<BOUCLE_hero(ARTICLES){id_article IN #CONFIG{html5up/hero}|picker_selected{article}}>
+	<INCLURE{fond=inclure/article-hero,id_article} />#SET{exclus,#GET{exclus}|push{#ID_ARTICLE}}
+	</BOUCLE_hero>
+</section>
+</B_hero>
+
+<B_major>
+<section>
+	<BOUCLE_major(ARTICLES){id_article IN #CONFIG{html5up/major}|picker_selected{article}}>
+	[<header class="major">
+		<h2 class="#EDIT{titre}">(#TITRE)</h2>
+	</header>]
+	[<div class="chapo #EDIT{introduction}">
+		(#INTRODUCTION)
+	</div>]#SET{exclus,#GET{exclus}|push{#ID_ARTICLE}}
+	</BOUCLE_major>
+</section>
+</B_major>
+<BOUCLE_heroside(ARTICLES){id_article IN #CONFIG{html5up/heroside}|picker_selected{article}}>
+#SET{exclus,#GET{exclus}|push{#ID_ARTICLE}}
+</BOUCLE_heroside>
+
+<section>
+	<INCLURE{fond=inclure/liste/articles,env,ajax,
+		parpage=#CONFIG{html5up/suivants_parpage,6},
+		exclus=#GET{exclus},
+		total=#CONFIG{html5up/suivants_total,12},
+		titre=#CONFIG{html5up/suivants_titre}} />
+</section>

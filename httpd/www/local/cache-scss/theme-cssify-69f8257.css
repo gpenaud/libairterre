@@ -1,0 +1,211 @@
+/* #PRODUIRE{fond=css/vars_spip.scss}
+ md5:dbe8fe0af317ad6da3f4c2992fd40ab0 */
+/* Image */
+.image {
+  border-radius: 0.375em;
+  border: 0;
+  display: inline-block;
+  position: relative; }
+  .image img {
+    border-radius: 0.375em;
+    display: block; }
+  .image.left, .image.right {
+    max-width: 40%; }
+    .image.left img, .image.right img {
+      width: 100%; }
+  .image.left {
+    float: left;
+    padding: 0 1.5em 1em 0;
+    top: 0.25em; }
+  .image.right {
+    float: right;
+    padding: 0 0 1em 1.5em;
+    top: 0.25em; }
+  .image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%; }
+    .image.fit img {
+      width: 100%; }
+  .image.main {
+    display: block;
+    margin: 0 0 3em 0;
+    width: 100%; }
+    .image.main img {
+      width: 100%; }
+
+a.image {
+  overflow: hidden; }
+  a.image img {
+    -moz-transition: -moz-transform 0.2s ease;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    -ms-transition: -ms-transform 0.2s ease;
+    transition: transform 0.2s ease; }
+  a.image:hover img {
+    -moz-transform: scale(1.075);
+    -webkit-transform: scale(1.075);
+    -ms-transform: scale(1.075);
+    transform: scale(1.075); }
+/* adapter le theme Editorial pour SPIP */
+.arbo {
+  font-size: 80%; }
+  .arbo a, .arbo strong {
+    color: #9fa3a6; }
+
+.pagination {
+  text-align: center;
+  font-size: 110%;
+  border-top: 1px solid rgba(210, 215, 217, 0.75);
+  padding-top: 1em;
+  margin-top: 3em; }
+
+hr.spip {
+  clear: both; }
+/* header */
+#header .spip_logo_left {
+  margin-bottom: 0; }
+/* sidebar */
+#sidebar {
+  /* rehausser le contrast trop faible */ }
+  #sidebar #menu a {
+    color: #3d4449; }
+  #sidebar .contact_form li {
+    border: 0; }
+/* content */
+#main > .inner > section {
+  clear: both; }
+  #main > .inner > section:after {
+    display: block;
+    content: '';
+    clear: both; }
+  #main > .inner #slogan_site_spip {
+    padding: 0;
+    margin: 0; }
+  #main .chapo, #main .texte, #main .ps {
+    margin-bottom: 3em;
+    position: relative;
+    clear: both; }
+  #main .chapo:after, #main .texte:after, #main .ps:after {
+    display: block;
+    content: '';
+    clear: both; }
+  #main .texte {
+    /* texte en 2 colonnes, en attendant mieux (mixin ?) */
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+    -moz-column-gap: 3em;
+    -webkit-column-gap: 3em;
+    column-gap: 3em; }
+  #main .ps {
+    /* ps en 3 colonnes, en attendant mieux (mixin ?) */
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -moz-column-gap: 3em;
+    -webkit-column-gap: 3em;
+    column-gap: 3em; }
+  #main img {
+    max-width: 100%;
+    height: auto; }
+  #main .spip_documents img {
+    border-radius: 0.375em; }
+
+.iconemodele {
+  color: #7ab600; }
+
+article.feature.bloc {
+  width: 47%;
+  padding: 2.8em 0 0 3.4em;
+  margin-bottom: 2em;
+  min-height: 170px; }
+  article.feature.bloc.right {
+    float: right; }
+  article.feature.bloc.left {
+    float: left;
+    clear: both; }
+  article.feature.bloc .icon {
+    display: inline-block;
+    min-width: 50px;
+    text-align: center; }
+  article.feature.bloc .icon:after {
+    display: block;
+    position: absolute;
+    height: 7em;
+    width: 7em;
+    left: 50%;
+    top: 50%;
+    margin: -3.5em 0 0 -3.5em;
+    transform: rotate(45deg);
+    border-radius: 0.25rem;
+    border: solid 2px rgba(210, 215, 217, 0.75);
+    content: ''; }
+  article.feature.bloc .icon:before {
+    color: #7ab600;
+    font-size: 2.75rem;
+    position: relative;
+    top: 0.05em; }
+  article.feature.bloc .content {
+    margin: -6.7em 0 0 7.5em; }
+  article.feature.bloc .content p {
+    margin: 0; }
+
+.formulaire_crayon .crayon-boutons button, .formulaire_crayon input[type="submit"], .formulaire_crayon input[type="reset"], .formulaire_crayon input[type="button"], .formulaire_crayon button, .formulaire_crayon .button, .formulaire_crayon textarea, .formulaire_crayon input {
+  border-radius: 0;
+  box-shadow: 0 0 0;
+  border: 0; }
+
+#colorbox input[type="submit"], #colorbox input[type="reset"], #colorbox input[type="button"], #colorbox button, #colorbox .button {
+  border-radius: 0;
+  box-shadow: 0 0 0; }
+/* footer */
+/* le logo de SPIP en taille et en couleur */
+#footer svg {
+  height: 16px;
+  width: 16px; }
+  #footer svg #sp, #footer svg #ip {
+    fill: #7ab600; }
+/* general */
+.offscreen {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+@media (max-width: 767px) {
+  /* content */
+    #main {
+      /* texte et ps en 1 colonnes, en attendant mieux (mixin ?) */ }
+      #main .texte, #main .ps {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1; }
+    article.feature.bloc {
+      padding: 1.8em 0 0 1.5em;
+      min-height: 90px; }
+      article.feature.bloc .icon:after {
+        height: 5em;
+        width: 5em;
+        margin: -2.5em 0 0 -2.5em; }
+        article.feature.bloc .icon:before {
+          font-size: 1.75rem; }
+      article.feature.bloc .content {
+        margin: -5em 0 0 6em; } }
+
+@media (max-width: 640px) {
+  article.feature.bloc {
+    width: 100%; }
+    article.feature.bloc.left, article.feature.bloc.right {
+      float: none; } }
+
+@media (max-width: 480px) {
+  .page_sommaire #banner {
+    display: block; }
+    .page_sommaire #banner .image, .page_sommaire #banner .content {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      float: none;
+      clear: both; } }

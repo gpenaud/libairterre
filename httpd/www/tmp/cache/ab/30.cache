@@ -1,0 +1,92 @@
+a:2:{s:9:"nom_cache";s:38:"ab30503a31a33a2424c204e011b80273.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_59357245710846c7d89775f7969e72c5";s:6:"source";s:16:"prive/login.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"ab30503a31a33a2424c204e011b80273.cache";}s:7:"entetes";a:2:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:5357:"
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+<head>
+<title>Lib'Air'Terre</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="none" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="prive/themes/spip/reset.css" type="text/css" />
+<link rel="stylesheet" href="prive/themes/spip/clear.css" type="text/css" />
+<link rel="stylesheet" href="prive/themes/spip/minipres.css" type="text/css" />
+
+<script type='text/javascript'>var var_zajax_content='content';</script><script type="text/javascript">/* <![CDATA[ */
+var box_settings = {tt_img:true,sel_g:"#documents_portfolio a[type='image/jpeg'],#documents_portfolio a[type='image/png'],#documents_portfolio a[type='image/gif']",sel_c:".mediabox",trans:"elastic",speed:"200",ssSpeed:"2500",maxW:"90%",maxH:"90%",minW:"400px",minH:"",opa:"0.9",str_ssStart:"Diaporama",str_ssStop:"Arrêter",str_cur:"{current}/{total}",str_prev:"Précédent",str_next:"Suivant",str_close:"Fermer",splash_url:""};
+var box_settings_splash_width = "600px";
+var box_settings_splash_height = "90%";
+var box_settings_iframe = true;
+/* ]]> */</script>
+<!-- insert_head_css --><link rel="stylesheet" href="plugins-dist/mediabox/colorbox/black-striped/colorbox.css" type="text/css" media="all" /><link rel='stylesheet' type='text/css' media='all' href='plugins-dist/porte_plume/css/barre_outils.css?1622815319' />
+<link rel='stylesheet' type='text/css' media='all' href='local/cache-css/cssdyn-css_barre_outils_icones_css-c740b21f.css' />
+<link rel="stylesheet" type="text/css" href="plugins/sociaux/lib/socicon/style.css" />
+<link rel="stylesheet" type="text/css" href="plugins/sociaux/css/sociaux.css" />
+<link rel="stylesheet" type="text/css" href="plugins/agenda-v3/css/spip.agenda.css" /><link rel="stylesheet" type="text/css" href="plugins/oembed/css/oembed.css?1622815319" />
+
+<link rel='stylesheet' href='plugins/auto/videos/v0.12.9/theme/css/videos.css' type='text/css' media='all' />
+<script src="prive/javascript/jquery.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery-migrate-3.0.1.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.form.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.autosave.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.placeholder-label.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/ajaxCallback.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/js.cookie.js?1622815319" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.cookie.js?1622815319" type="text/javascript"></script>
+
+<script src="plugins/auto/videos/v0.12.9/lib/html5media-1.1.8/api/html5media.min.js?1622815319" type="text/javascript"></script>
+<!-- insert_head -->
+	<script src="plugins-dist/mediabox/javascript/jquery.colorbox.js?1622815319" type="text/javascript"></script>
+	<script src="plugins-dist/mediabox/javascript/spip.mediabox.js?1622815319" type="text/javascript"></script><script type='text/javascript' src='plugins-dist/porte_plume/javascript/jquery.markitup_pour_spip.js?1622815319'></script>
+<script type='text/javascript' src='plugins-dist/porte_plume/javascript/jquery.previsu_spip.js?1622815319'></script>
+<script type='text/javascript' src='local/cache-js/jsdyn-javascript_porte_plume_start_js-a78415d9.js'></script>
+<?php if (!in_array(_request(_SPIP_PAGE),array('login')) AND strpos($_SERVER['REQUEST_URI'],'debut_')===false){?><link rel="alternate" type="application/json+oembed" href="<?php include_spip('inc/filtres_mini');echo parametre_url(url_absolue("oembed.api/?format=json"), "url", url_absolue(self()));?>" />
+<?php } ?>
+<script type='text/javascript'>var CONFIG_WMODE = 'opaque';</script>
+
+<script type='text/javascript'><!--
+jQuery(function(){ jQuery('input#var_login').focus();
+jQuery('a#spip_pass').click(function(){window.open(this.href, 'spip_pass', 'scrollbars=yes, resizable=yes, width=480, height=380'); return false;});
+});
+// --></script>
+<meta name="generator" content="SPIP 3.2.3 [24211]" />
+</head>
+<body class="page_login">
+
+<div id="minipres">
+
+	<h1>Lib&#8217;Air&#8217;Terre</h1>
+	
+	 
+	<h3 class="spip">accès à l’espace privé</h3>
+	<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/menu_lang_ecrire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_MENU_LANG_ECRIRE_dyn('fr'), array('prive/login.html', 'html_59357245710846c7d89775f7969e72c5', '', 31, 'fr'));
+if ($lang_select) lang_select();
+?>
+	
+	
+	<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/formulaire_.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_FORMULAIRE__dyn('FORMULAIRE_LOGIN', '/ecrire/'), array('prive/login.html', 'html_59357245710846c7d89775f7969e72c5', '', 14, 'fr'));
+if ($lang_select) lang_select();
+?>
+	<p class="retour">
+		
+		<a href="https://www.libairterre.fr/">retour au site public</a>
+	</p>
+	<p class="generator">
+		<a href="http://www.spip.net/" title="Site réalisé avec SPIP"><img src='prive/themes/spip/images/spip.png' alt='' width='53' height='40' /></a>
+	</p>
+	
+</div><!--#minipres-->
+
+</body>
+</html>";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:4:"page";s:5:"login";s:3:"url";s:8:"/ecrire/";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2021-06-04 14:34:47";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-06-04 14:34:47";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1622817287;s:2:"gz";b:0;s:3:"sig";i:2844406273;}}

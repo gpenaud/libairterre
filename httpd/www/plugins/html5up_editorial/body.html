@@ -1,0 +1,28 @@
+<body>
+	<div id="wrapper">
+		<div id="main">
+			<div class="inner">
+				<header id="header"[(#ENV{type-page}|=={sommaire}|oui) class="alt"]>
+					<INCLURE{fond=header/#ENV{type-page},env} />
+					[(#PLUGIN{sociaux}|oui)<INCLURE{fond=inclure/rezo} />]
+					
+					<B_langues><p class="langues">
+						<BOUCLE_langues(ARTICLES){fusion lang}{par lang}{' | '}>[(#TOTAL_BOUCLE|>{1}|oui)
+						<a class="lang" href="#URL_SITE_SPIP/?lang=#LANG" rel="alternate"
+						hreflang="#LANG" dir="#LANG_DIR" lang="#LANG"
+						class="[(#LANG|=={#ENV{lang}}|?{on,''})]"
+						>[(#LANG)]</a>
+						]</BOUCLE_langues>
+					</p></B_langues>
+				</header>
+				
+				<INCLURE{fond=breadcrumb/#ENV{type-page},env} />
+				<INCLURE{fond=content/#ENV{type-page},env} />
+				
+			</div><!-- .inner -->
+		</div><!-- .main -->
+		<div id="sidebar">
+			<INCLURE{fond=inclure/sidebar,env} />
+		</div><!-- .sidebar -->
+	</div><!-- .wrapper -->
+</body>

@@ -1,0 +1,9 @@
+[(#REM) Avec plugin sociaux ]
+[(#SET{rezo,[(#PIPELINE{sociaux_lister,#ARRAY{args,#ARRAY{skel,#SQUELETTE,date,#ENV**{date}},data,#ARRAY}})]})]
+<B_sociaux><ul class="icons">
+<BOUCLE_sociaux(DATA){source tableau,#GET{rezo}}{cle !IN mail}>
+	#SET{icone,fa-#CLE}
+	[(#CLE|=={googleplus}|?{#SET{icone,fa-google-plus}})]
+	[<li><a class="icon #GET{icone}" href="(#CONFIG{sociaux/#CLE})"><span class="label">#VALEUR</span></a></li>]
+</BOUCLE_sociaux>
+</ul></B_sociaux>

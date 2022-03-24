@@ -1,0 +1,53 @@
+titre: '<:medias:objet_document:>'
+description: '<:saisies:saisie_selecteur_document:>'
+icone: 'images/saisies_selecteur_article.png'
+categorie:
+  type: 'objet'
+  rang: 1
+options:
+ -
+   saisie: 'fieldset'
+   options:
+     nom: 'description'
+     label: '<:saisies:option_groupe_description:>'
+   saisies:
+     -
+       saisie: 'input'
+       options:
+         nom: 'label'
+         label: '<:saisies:option_label_label:>'
+         explication: '<:saisies:option_label_explication:>'
+         size: 50
+     -
+       saisie: 'input'
+       options:
+         nom: 'explication'
+         label: '<:saisies:option_explication_label:>'
+         explication: '<:saisies:option_explication_explication:>'
+         size: 50
+ -
+   saisie: 'fieldset'
+   options:
+     nom: 'affichage'
+     label: '<:saisies:option_groupe_affichage:>'
+   saisies:
+     -  'inclure:saisies/_base/afficher_si.yaml'
+     -
+       saisie: 'input'
+       options:
+         nom: 'attention'
+         label: '<:saisies:option_attention_label:>'
+         explication: '<:saisies:option_attention_explication:>'
+         size: 50
+ -
+   saisie: 'fieldset'
+   options:
+     nom: 'validation'
+     label: '<:saisies:option_groupe_validation:>'
+   saisies:
+     -  'inclure:saisies/_base/obligatoire.yaml'
+defaut:
+ options:
+   label: '<:medias:objet_document:>'
+   # champs extras (definition du champ sql)
+   sql: "text DEFAULT '' NOT NULL"

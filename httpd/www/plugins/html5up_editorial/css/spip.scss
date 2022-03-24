@@ -1,0 +1,266 @@
+@import 'css/libs/vars';
+@import 'css/vars_spip';
+@import 'css/libs/functions';
+@import 'css/libs/mixins';
+@import 'css/libs/skel';
+
+@include skel-breakpoints((
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 640px)',
+		xxsmall: '(max-width: 360px)'
+));
+
+/* --------------------------------------------------------------
+
+   spip.css
+   Styles associes au code genere par SPIP
+
+
+-------------------------------------------------------------- */
+
+s, strike, del, .del {
+	opacity: 1;
+}
+.bugajaxie {
+	display:none;
+}
+
+/* Compatibilite ancienne dist */
+.on {
+	font-weight: bold;
+}
+/* Logos, documents et images */
+#wrapper {
+	.spip_logo {
+		float: right;
+		margin: 0 0 10px 10px;
+		padding: 0;
+		border: none;
+	}
+	.spip_logo_center {
+		clear: both;
+		display: block;
+		margin: 0 auto 1.5em auto;
+	}
+	.spip_logo_left {
+		float: left;
+		margin-right: 1.5em;
+		margin-bottom: 1.5em;
+	}
+	.spip_logo_right {
+		float: right;
+		margin-left: 1.5em;
+		margin-bottom: 1.5em;
+	}
+}
+
+.spip_documents {
+	margin-bottom: 1.5em;
+	padding: 0;
+	background: none;
+	max-width: 100%;
+}
+
+.spip_documents,
+.spip_documents_center,
+.spip_doc_titre,
+.spip_doc_descriptif {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.spip_documents_center {
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.spip_documents_left {
+	float: left;
+	margin-right: 1.5em;
+}
+
+.spip_documents_right {
+	float: right;
+	margin-left: 1.5em;
+}
+
+.spip_doc_titre {
+}
+
+.spip_doc_descriptif {
+	clear: both;
+}
+
+.spip_doc_credits {
+	font-size: x-small;
+	clear: both;
+}
+
+.spip_documents_left, .spip_documents_right {
+	@include breakpoint(xsmall) {
+		float: none !important;
+		margin-left:0; margin-right:0;
+		width:auto !important;
+		img {
+			width:90%;
+			height:auto;
+			margin:0 auto;
+		}
+	}
+}
+
+
+
+/* fixer une largeur maximale de 100 % aux elements potentiellement problematiques */
+@media (max-width: 640px) {
+	.spip_documents, .spip_doc_titre, .spip_doc_descriptif {
+		max-width: 100% !important;
+	}
+}
+
+/* Modeles par defaut */
+.spip_modele {
+	float: right;
+	display: block;
+	width: 25%;
+	margin: 0 0 1.5em 1.5em;
+	padding: 1.5em;
+	background-color: #EEE;
+}
+
+/* Formulaires */
+.formulaire_spip {
+	.editer-groupe {
+		padding:0;
+		list-style:none;
+		li {
+			padding:0;
+			label {
+				margin:1em 0 0;
+			}
+		}
+	}
+	fieldset.previsu { border-color:_palette(accent);
+		legend { color:_palette(accent); }
+		ul { list-style:none; padding:0;
+			li { margin:0; padding-left:0; }
+		}
+	}
+}
+
+@media print {
+	.formulaire_spip {
+		display: none;
+	}
+}
+
+/* Barre typo */
+.markItUp .markItUpHeader ul .markItUpSeparator {
+	display: none;
+}
+
+/* Previsu */
+.previsu {
+	margin-bottom: 1.5em;
+	padding: 0.75em;
+	border: 2px dashed #F57900;
+}
+
+fieldset.previsu legend {
+	color: #F57900;
+}
+
+/* Reponses */
+.reponse_formulaire {
+	margin-bottom: 1.5em;
+	padding: 0.75em;
+	border: 2px solid #ddd;
+}
+
+.reponse_formulaire_ok {
+	background: #e6efc2;
+	color: #264409;
+	border-color: #c6d880;
+}
+
+.reponse_formulaire_erreur {
+	background: #fbe3e4;
+	color: #8a1f11;
+	border-color: #fbc2c4;
+}
+
+.reponse_formulaire_ok a {
+	color: #264409;
+}
+
+.reponse_formulaire_erreur a {
+	color: #8a1f11;
+}
+
+.erreur_message {
+	color: red;
+}
+
+.editer.erreur input[type="text"], .editer.erreur input.text,
+.editer.erreur input[type="password"], .editer.erreur input.password,
+.editer.erreur textarea,
+li.erreur input[type="text"], li.erreur input.text,
+li.erreur input[type="password"], li.erreur input.password,
+li.erreur textarea {
+	background-color: #fbe3e4;
+	border-color: #fbc2c4;
+}
+
+.spip_surligne {
+	background-color: yellow;
+}
+
+/* Paragraphes */
+div.spip, ul.spip, ol.spip, .spip_poesie, .spip_cadre, div.spip_code, .spip_documents.spip_documents_center {
+	margin-bottom: 1.5em;
+}
+
+
+@media print {
+	.pagination {
+		display: none;
+	}
+}
+
+/* Liens de SPIP */
+a.spip_note {
+	font-weight: bold;
+}
+
+/* liens vers notes de bas de page */
+a.spip_in {
+}
+
+/* liens internes */
+a.spip_mail {
+}
+
+a.spip_out {
+}
+
+/* liens sortants */
+a.spip_url {
+}
+
+/* liens url sortants */
+a.spip_glossaire {
+}
+
+@media print {
+	.spip-admin,
+	#spip-admin {
+		display: none;
+	}
+}
+
+/* fin */

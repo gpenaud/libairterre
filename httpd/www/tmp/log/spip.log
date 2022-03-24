@@ -1,0 +1,336 @@
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache 68781457f30b48d71e0aeb2a385ed6d1.cache pour 86400 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache 762e53550c91a28637e1f62d56e3727a.cache pour 86400 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache 39e814ba32b20f4cfd984eab7adeff43.cache pour 86400 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache 40a310d6ea7f855a574e3997640019e4.cache pour 86400 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache cc658a9cb4f8cc83362fdebb1d3f941c.cache pour 86400 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache 52a779c7b6297055c914199431928e36.cache pour 86400 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache 60f8db5f05bad54ae917174d770e2fd5.cache pour 86400 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache 19702adde47a73e4b92121807db7b361.cache pour 3600 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache b62cf3564508bc1a83adc9ab8a88f237.cache pour 3600 secondes
+2022-03-24 15:14:21 172.30.0.1 (pid 19) :Pub:!INFO: Creation du cache 345e61d8d181e69516cb03fc1dac1e5f.cache pour 86400 secondes
+2022-03-24 15:15:08 172.30.0.1 (pid 24) :Pub:!INFO: Creation du cache 1b3717d7cb8005945d4442bda1f0af53.cache pour 3600 secondes
+2022-03-24 15:15:08 172.30.0.1 (pid 24) :Pub:!INFO: Creation du cache 773b797985b35128fa7eb2ba3e14cb2e.cache pour 3600 secondes
+2022-03-24 16:04:17 192.168.48.1 (pid 18) :Pub:!INFO: spip_connect: fichier de connexion 'config/connect.php' OK.
+2022-03-24 16:04:18 192.168.48.1 (pid 21) :Pub:!INFO: spip_connect: fichier de connexion 'config/connect.php' OK.
+2022-03-24 16:04:19 192.168.48.1 (pid 20) :Pub:!INFO: spip_connect: fichier de connexion 'config/connect.php' OK.
+2022-03-24 16:04:57 192.168.48.1 (pid 22) :Pub:!INFO: Creation du cache adbd744382c480e0fbdc5e2c9989eeea.cache pour 3600 secondes
+2022-03-24 16:04:57 192.168.48.1 (pid 22) :Pub:!INFO: Creation du cache 0fe05bd067a51395409bea833f573864.cache pour 3600 secondes
+2022-03-24 16:04:58 192.168.48.1 (pid 20) :Pub:!INFO: Creation du cache 3e9edc7f6d2f7ded51bb4b0fcf9083fc.cache pour 86400 secondes
+2022-03-24 16:04:58 192.168.48.1 (pid 18) :Pub:!INFO: Collision avec le paquet &lt;spip-contrib-extensions/favicon-b63d9-v1.1.2.zip / https://git.spip.net/spip-contrib-extensions/favicon.git> du depot &lt;1>
+
+2022-03-24 16:04:58 192.168.48.1 (pid 18) :Pub:!INFO: Collision avec le paquet &lt;spip-contrib-extensions/rspip_code_mail-fc7b4-1.3.2.zip / https://git.spip.net/spip-contrib-extensions/rspip_code_mail.git> du depot &lt;1>
+
+2022-03-24 16:04:58 192.168.48.1 (pid 18) :Pub:!INFO: Collision avec le paquet &lt;spip-contrib-extensions/smartdata-c8b19-v0.2.1.zip / https://git.spip.net/spip-contrib-extensions/smartdata.git> du depot &lt;1>
+
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones
+LIMIT 1
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_couleur_objet_liens' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_couleur_objet_liens
+LIMIT 1
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/ecrire/genie/maintenance.php L72 [sql_select(),verifier_crash_tables(),genie_maintenance_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+SELECT *
+FROM `libairtewhphy`.spip_zones_liens
+LIMIT 1
+2022-03-24 16:04:59 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 60793c40e3452defcb14ad37f99afedf.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 444418e7b8642187b749e74c6710ec29.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 73f7101cd6e740bc46e40446de9d8aa5.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 86741bff52cbc11cc4ec6ca695f9c26e.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 78ffe2b2a4572270408b5f5cffd16f71.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache bd8752e6d4169c5b37a48bc63d14af9d.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache b9c84e789f6ceb8454e7bf778f346707.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache b009a7680ac012e931c98874f885b761.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache ae3d7c2b67b28bf0e11119344deabda0.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 591a4f6c7ad9330a588b9dfc6de02184.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 730d86384355d5ac8794fc9b7349784b.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache b4c23c87a58be9531dcb844a197cb41c.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache f7fd3a817b3f83f540949f2444568dab.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 9e651c50effef2dc86cb1862f3173bcc.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache ee28ebafbda59e03427a7886eb7542c9.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 3b8f454a12b2cb0f67711f5fbd44101f.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache a86e151a739499c0a281606a43ffde23.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 5b3a89aaf585e3289eaa546ecad0cad4.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache b8a07941abddae258fb679ed3ca9dbe2.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache cc9cc13823c0dd2074e129f1b4cd5b14.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 17615e4a7c6d09fbd2dbc7a30006107e.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache d4838bb7aee3d0849f9275a1b424c64c.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 1b7b4b3e510112dd7baee9368e7cda6c.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 8d23f62b140e563d973d450180f15e81.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache a702fbd7e39ff752debc1d9b02aabf23.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 754d9eefa3f183853ec46614b3c221ca.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 637f33f5f661f8e70d37e89a8364fd96.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache dbebca385c2467eced514bee87d10ee4.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache f74631e64719d9cd08d76f4a161a1d46.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache e4419e8dede6972960d97c9a80e7580f.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 52074196755f4d8657ff57fbfaeb2626.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache a5e08919681c21f74eb7c3e463ac1e3f.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 559e95e597bfb6721f0e1605e268b705.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 2643a769113672408ce90f72e8ea985c.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 0bdd3fc44a608d4df00727de5f2a9df5.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 5f9288e98ff1a445e8be5bcc209918ce.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 3b06e0dc69a00fce064df40d617b4d34.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 873a9664e09f83a10d32f41b611877d4.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 4cd9e93d2fbb03b8ab2412537afe8e6f.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache b9b3f8082776976f9e2267359bf27595.cache pour 86400 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 74149dd6061ba513bc5f70253ed750fb.cache pour 3600 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache a837a7203b5b834e4e469104d3a3c866.cache pour 3600 secondes
+2022-03-24 16:05:05 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 00400d13964ca7789b0725f11ab27f1a.cache pour 86400 secondes
+2022-03-24 16:05:25 192.168.48.1 (pid 25) :Pub:!INFO: Creation du cache 9645a14e9973af68ab1a971c506b7826.cache pour 3600 secondes
+2022-03-24 16:05:25 192.168.48.1 (pid 25) :Pub:!INFO: Creation du cache f14b1f7478b42c6658c75bbfe4026190.cache pour 3600 secondes
+2022-03-24 16:05:30 192.168.48.1 (pid 23) :Pub:!INFO: Creation du cache 4131815bdd03eba830a3b1d3b6e1ccea.cache pour 3600 secondes
+2022-03-24 16:05:30 192.168.48.1 (pid 23) :Pub:!INFO: Creation du cache 88092988725861241badf2dcb7465c4b.cache pour 3600 secondes
+2022-03-24 16:09:21 192.168.48.1 (pid 24) :Pub:!INFO: Creation du cache 9e3c28629c79c56c4b9170316dad5ac1.cache pour 3600 secondes
+2022-03-24 16:09:21 192.168.48.1 (pid 24) :Pub:!INFO: Creation du cache b2e8fa2b78cd6aed85609022ed728f8a.cache pour 3600 secondes
+2022-03-24 16:09:21 192.168.48.1 (pid 24) :Pub:!INFO: Creation du cache a77d6777e37085daf20c5a9531a4de04.cache pour 3600 secondes
+2022-03-24 16:25:46 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache b80dbeb027ade84bec506a599a46a875.cache pour 3600 secondes
+2022-03-24 16:25:46 192.168.48.1 (pid 19) :Pub:!INFO: Creation du cache 8ad4070245abe20bb00c9217e6b76545.cache pour 3600 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_principale_articlehtml_39728d727b0d124c946046d33b8146e1(),html_39728d727b0d124c946046d33b8146e1(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_principale_articlehtml_39728d727b0d124c946046d33b8146e1(),html_39728d727b0d124c946046d33b8146e1(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache d115ba656dbffc759d3c6c088fd8473d.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache bee7a40aa49b5d228c7faceb31706c21.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache aa4efb75bb45e76cd6237c3bceb75107.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 0ff1f65babe83f49510ce8777fc1ae2c.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 2101a030e2cb4b603bf5cf910b759210.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache d29545a53c46f5aef7aaa4c3cf0ea844.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache bc0a8437b5385a39d13f36eb59975475.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache f58353d9c780f4ae6032d294d721512e.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 19467e37538a3f688f372e953926bb4e.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 45d4ff0b6d5be8d6af4adcf6970be5f1.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 1f66d0da3ff9a8ac2c8f44fc6c373d84.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 86b6f83ea708a742bd616ca7fb501830.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 284599178d2286797f50674d26829e5d.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_8cedb2c3e8aecafe3b0e14f0ebcb23ed(),BOUCLE_articlehtml_8cedb2c3e8aecafe3b0e14f0ebcb23ed(),html_8cedb2c3e8aecafe3b0e14f0ebcb23ed(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 2b701f9e5f346647f16bd9216202fe1b.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache f1b902fb481b480c0f83ec4bd5baefa6.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 3bb90086e370509cad06185a276d63f9.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache be375976992a8d718de4621f599e0f63.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 7cbfd7c6106b737a2ae3b1a4d32b1f66.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 4529069166b9455834c18e56dd2a0bd1.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 2f52ff36daf21142cf92bf6ef5bfa75e.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 887cf50aab32750a9982bc2b8fa9dcf1.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 4bd76b47e04a8f55a571d4385aa5ca7a.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 765efbaeacfab97156410e92fe35f502.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 277cbac21fd94c6fe9a8cf7884b54ef7.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache caf770e0ddea5b82ca5a84cd28d38f24.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache ada6da4b8e036805b90962e87382971c.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 2a7b5c2fdb53aab06df3a624b13b642b.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 0e805b07025f621249343e49e3006a67.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache a3280148d500067e7d2957ee5b8750b8.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache dfecd8227e1c7fa80e7bbebc2d5fb429.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache e2e8f28c0823f62e4d97fcd0604835be.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 5c78d7f8a3ff7ff888ca964b0b20848c.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 43f21b94be75b72d990f6a2c9b1213ce.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 942ce778722b2a5cd6e97ab899a6cac8.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 6b0e7288033877b8fa5edb93a6d3bd64.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 9b256f43601babeb27245afaed9dd1be.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache e95436798f65e0fa113c8c6ffb90138b.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 2cbf2ef7f53da2735ba2822f3259760e.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 6c8afbbb7d15f6db6f60ee6f151a3021.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 2f138034f3b059d1a8833a056e84dd4e.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache c1df78d6ee3148bc51a1dfd187f8b606.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 29380cb4044a75ff67057b55bf944cb8.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache ebc7273225494df7260bd3f4321dd176.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 622162175af727544deca91c5affcf1b.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache f275a7216995f7bf112617547fa2b079.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache b97912c956e7c9f41b8047b6263fcd63.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 067a8c6fbe49e60b5e55e5c49a53c04e.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 2f31580b246123e5966de81ac8601111.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 949897705895ad7343df088c3cf1dbdb.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 6cf9a8a829cb44028f2472fab100ae2c.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 808ee8bc537424ce86e99f559eafd759.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache fcb971a6ab22c033a1dc1f236c1c948a.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache f2862751558ae4edb5e1dc6a8232557e.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 348f8d16316cdbc18dd4c35edeec6c4d.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache fe76410214ef3f2a9b99f83db1a8b042.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 4c4e1bb673c900e77a173d9cf283a854.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache a0ca0ebccfd54ae14c9b5a009e34730d.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache c42afe89eb7561c989269e7691bb0f95.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 9c1ae04fef13eb109c805b100eb7dd03.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache ab0ad84c78977441851bb8ef2e0bdf31.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 4a310a2defaca4c34ea07aad41ead668.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 63798ae322db069c917621ca82ef6d1e.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 17c8141ce411e5e3cb1fb0131a162354.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 4a55dd2bb2f1d5fa4ebda95fed5a7067.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 5f71a994df487e930c6f4dcf9272d451.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 73cfce1db1554430a9a810c8689618d3.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache b4bdd74afd3c26e6d2b32f8d02844f27.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 876a5b09423799c23702edd625b8a03a.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 30064e40e7603e63a7254db652f665c5.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 7624e9048f237a556df1f555aba25875.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 92c640903b987604ef342a1ccc29baad.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 4d1c278af3b95e6b5e6215ad48f01c90.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache d044b689cf1695c8fd04851273caede2.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache b814d9836625ffc1a6112a13632cef64.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 782123710c90d5a85170934ff6464f32.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 15e3be0dc7c876dc95ba38f257c02ab7.cache pour 3600 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 7013816331b74d0e0d52fde40e67a710.cache pour 3600 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache f053563ce160bc61a7b0d4714148830f.cache pour 86400 secondes
+2022-03-24 16:25:58 192.168.48.1 (pid 18) :Pub:!INFO: Creation du cache 6a40bcb0687cb541248001c765712eeb.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='article'
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L72 [sql_allfetsel(),accesrestreint_liste_contenu_zone_rub_direct(),accesrestreint_liste_contenu_zone_rub(),accesrestreint_liste_rubriques_exclues(),BOUCLE_un_articlehtml_10f6a1055acda66752cd6eff620cf143(),html_10f6a1055acda66752cd6eff620cf143(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),courtcircuit_url_redirection(),courtcircuit_styliser(),minipipe(),execute_pipeline_styliser(),pipeline(),public_styliser_dist(),public_parametrer_dist(),public_produire_page_dist(),assembler(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zr INNER JOIN `libairtewhphy`.spip_zones AS z ON zr.id_zone=z.id_zone
+WHERE publique='oui'
+	AND zr.objet='rubrique'
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache f06b6074454ab5224cce14fee94268ea.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 46fda721bb0c56ff47e26cd7acce8eae.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 1d2d0c67c7779815a8b151ba9b85f6ab.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 62361a5c41cc7aa153a21bc0516bc6ab.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache ec95e95eb1710b55f18492c23df9d335.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 6611c4c0a9fd2f183310a505151e2b55.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache ec56f5224e4ec3ec26fa706c064d8bf2.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 88862c251a8f77d043c4500ad0aaf0d6.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache b48b4ce99bf81130b25d523f810d27dd.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 59098c2549cc055bd6de10d2307c6c05.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_agendahtml_231ada33246e9221f90a0004eb4dea66(),BOUCLE_rubriquehtml_231ada33246e9221f90a0004eb4dea66(),html_231ada33246e9221f90a0004eb4dea66(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='evenement'
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 0bb40f667571bc9cc0bb80bb96dda960.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur 1146 de mysql: Table 'libairtewhphy.spip_zones_liens' doesn't exist
+in /var/www/plugins/auto/accesrestreint/v4.2.2/inc/accesrestreint.php L346 [sql_allfetsel(),accesrestreint_liste_contenu_zone_objets(),accesrestreint_liste_objets_exclus(),BOUCLE_documents_portfoliohtml_fe1a1f72fed8de2d2408ece4c15d404f(),html_fe1a1f72fed8de2d2408ece4c15d404f(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),evaluer_fond(),recuperer_fond(),eval(),include(),include()]
+SELECT id_objet
+FROM `libairtewhphy`.spip_zones_liens AS zo INNER JOIN `libairtewhphy`.spip_zones AS z ON zo.id_zone=z.id_zone
+WHERE zo.objet='breve'
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:ERREUR: Erreur mysql 1146
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache b56b30c362e1096a9f547c014a4f36ba.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache c434bb871f3d973966fd3e2f2a233756.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 37a3d873a0d7bbeed8226f9b0ae07b19.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 8ce0e17f33d00aa13b786de85982a46c.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 48f7f271d348b3d5be1d02e8cecbca91.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 29eb764d9a8bed4dbcd67bebc58b8026.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache c6ac7a179e0c136f46a67a80d3a36b41.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 2da838a83c648f4be9a1921365d9e818.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 446abb690e3c49ecb0a9ec4c50b2a77e.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache a56e16e07804bd626b7387b7c44bdb79.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 386c1eb12fb5a7393b3d148446eb33f8.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 222a41992eb6342b68857d150b03ebd8.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 9e541e1ddc5b918833f15b0c0a6534a2.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 9b0b4f0c88f856107a106b05bc3f0b98.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache f51b60ce668d4d83f2f504c13dc26579.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 2cf7aadb349437492f2f20572952eddf.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache a17a12fc622ed3c40afdeff2a670ed71.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache c222474b5c31f01aa1a216f6b5c14e24.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 9369bf8ff33df390bc1ff66da0d6a92d.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache e45eba1dd5b54894c2c370d9a0323671.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 9f6ea7a2b4f52033100c2b9fd4c9c25f.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 2bb63bd2ff5f3b0f322225fb22727773.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 10cc1467018d84ebf0d928467e00621c.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 76962d9148ddc4d190f71940b86bf986.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 160ff5f738b8ab2ac43f689fe983f70d.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 84f0ba845a8a1ac7cce688c5d7c3a57a.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 27c79685c4f9b4feb6058adf503891eb.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache aa71c732c9425386ab21d68498316dfd.cache pour 86400 secondes
+2022-03-24 16:26:07 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache c34efb803d77f7c38a30d654f949fac6.cache pour 86400 secondes
+2022-03-24 16:26:08 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache 97271aac77e7f79a8466a6c02f079279.cache pour 3600 secondes
+2022-03-24 16:26:08 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache a41f10e548fc63a07570c0cc98da5d22.cache pour 3600 secondes
+2022-03-24 16:26:08 192.168.48.1 (pid 26) :Pub:!INFO: Creation du cache df1b8d5dd4a066049b984c30f289f3d5.cache pour 86400 secondes

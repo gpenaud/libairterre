@@ -1,0 +1,39 @@
+<BOUCLE_article(ARTICLES){id_article}>
+<section>
+
+	<header class="main">
+		[<p class="surtitre #EDIT{surtitre}">(#SURTITRE)</p>]
+		[<h1 class="titre #EDIT{titre}">(#TITRE)</h1>]
+		[<p class="soustitre #EDIT{soustitre}">(#SOUSTITRE)</p>]
+	</header>
+
+	[<div class="chapo #EDIT{chapo}">(#CHAPO|adaptive_images{1280})</div>]
+	[<div class="texte #EDIT{texte}">(#TEXTE|adaptive_images)</div>]
+	[<div class="ps #EDIT{ps}">(#PS|adaptive_images)</div>]
+	[<div class="notes">(#NOTES)</div>]
+
+	<INCLURE{fond=inclure/documents,id_article,id_rubrique=#NULL,ajax,env} />
+
+	<INCLURE{fond=inclure/forum,id_article} />
+	[<h2 class="forum-titre"><:forum:form_pet_message_commentaire:></h2>
+	(#FORMULAIRE_FORUM)]
+
+</section>
+
+/* BEGIN OF CHANGES By Guillaume Penaud */
+<B_agenda>
+<section>
+	<header class="major">
+	<h2>Prochainement</h2>
+	</header>
+	<BOUCLE_agenda(EVENEMENTS){id_rubrique}{evenement_a_venir}{par date_debut}{0,3}>
+	<dt><b><a style="font-size: 22px" href="#URL_ARTICLE">#TITRE</a></b></dt>
+	<dd>#DESCRIPTIF</dd>
+	<dd><b>Date</b>:  [(#DATE_DEBUT|Agenda_affdate_debut_fin{#DATE_FIN,#HORAIRE})]</dd>
+	<dd><b>Adresse</b>:  #LIEU #ADRESSE</dd>
+	</BOUCLE_agenda>
+</section>
+</B_agenda>
+/* END OF CHANGES By Guillaume Penaud */
+
+</BOUCLE_article>

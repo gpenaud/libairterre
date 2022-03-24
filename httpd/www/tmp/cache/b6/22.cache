@@ -1,0 +1,63 @@
+a:2:{s:9:"nom_cache";s:38:"b6221669b2a99082b4b812692afbf75b.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_231ada33246e9221f90a0004eb4dea66";s:6:"source";s:47:"plugins/html5up_editorial/content/rubrique.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"b6221669b2a99082b4b812692afbf75b.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2735:"
+<section>
+	<header class="main">
+		<h1 class="">Des habitants</h1>
+	</header>
+
+	<div class="texte "><p>Voici une courte présentation des personnes vivant actuellement au Lib&#8217;Air&#8217;Terre. Le lieu est en transformation de façon à pouvoir accueillir jusqu&#8217;à 25 habitants dans un avenir que nous espérons proches.</p>
+<p><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;<a href="c-est-qui/les-habitants/article/jacques" class='spip_in'>Jacques et la tribu Grolleau</a>, fondateur et gardien du Lib&#8217;Air&#8217;Terre</p>
+<h3 class="spip">Et pourquoi pas vous aussi venir vivre au Lib air Terre . </h3>
+<p><img src="local/cache-vignettes/L8xH11/puce-32883.gif?1648133580" width='8' height='11' class='puce' alt="-" />&nbsp;<a href="envie-de-contribuer/article/habiter-sur-le-lieu" class='spip_in'>Habiter sur le lieu</a></p></div>
+	
+
+	<?php echo recuperer_fond( 'inclure/documents', array_merge(array (
+  'id_rubrique' => '25',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:06',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:06',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '25',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',10,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+
+
+
+<section>
+	<?php echo recuperer_fond( 'inclure/liste/articles', array_merge(array (
+  'id_rubrique' => '25',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:06',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:06',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '25',
+	'parpage' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',27,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+<section>
+	<?php echo recuperer_fond( 'inclure/liste/rubriques', array_merge(array (
+  'id_rubrique' => '25',
+  'type-page' => 'rubrique',
+  'date' => '2022-03-24 15:14:06',
+  'date_default' => true,
+  'date_redac' => '2022-03-24 15:14:06',
+  'date_redac_default' => true,
+  'id_secteur' => '10',
+  'composition' => '',
+  'lang' => 'fr',
+),array('id_rubrique' => '25',
+	'parpage' => '6',
+	'lang' => 'fr')), array("compil"=>array('plugins/html5up_editorial/content/rubrique.html','html_231ada33246e9221f90a0004eb4dea66','',30,$GLOBALS['spip_lang']),'ajax' => ($v=( ''))?$v:true), _request("connect"));
+?>
+</section>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:11:"id_rubrique";s:2:"25";s:9:"type-page";s:8:"rubrique";s:4:"date";s:19:"2022-03-24 15:14:06";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2022-03-24 15:14:06";s:18:"date_redac_default";b:1;s:10:"id_secteur";s:2:"10";s:11:"composition";s:0:"";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1648134845;s:2:"gz";b:0;s:3:"sig";i:2000061431;}}
