@@ -1,0 +1,87 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-configmap
+data:
+  000-default.conf: |
+    <VirtualHost *:80>
+      ServerName  libairterre.localhost
+      Redirect permanent / https://libairterre.localhost/
+    </VirtualHost>
+
+    <VirtualHost *:443>
+      ServerName  libairterre.localhost
+      ServerAdmin  guillaume.penaud@gmail.com
+
+      DocumentRoot /var/www
+
+      SSLEngine             On
+      SSLCertificateFile    /etc/apache2/certificates/cert.pem
+      SSLCertificateKeyFile /etc/apache2/certificates/key.pem
+
+      LogLevel  warn
+      ErrorLog  /dev/stderr
+
+      <Directory /var/www>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+        Header set Access-Control-Allow-Origin "*"
+      </Directory>
+    </VirtualHost>
+
+  cert.pem: |
+    -----BEGIN CERTIFICATE-----
+    MIIEFjCCAn6gAwIBAgIRALn9NoCoEZHzMSX0HkJLEcowDQYJKoZIhvcNAQELBQAw
+    XTEeMBwGA1UEChMVbWtjZXJ0IGRldmVsb3BtZW50IENBMRkwFwYDVQQLDBBncGVu
+    YXVkQHBlcnNvbmFsMSAwHgYDVQQDDBdta2NlcnQgZ3BlbmF1ZEBwZXJzb25hbDAe
+    Fw0yMjAzMjQxNDUwNTFaFw0yNDA2MjQxMzUwNTFaMEQxJzAlBgNVBAoTHm1rY2Vy
+    dCBkZXZlbG9wbWVudCBjZXJ0aWZpY2F0ZTEZMBcGA1UECwwQZ3BlbmF1ZEBwZXJz
+    b25hbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL09dX1g3cTuvOTZ
+    0jQtPLrbLJU/tchvhc8G6kXCTX+J7xbRVgEFpSK5FSlGr8lP0bfq06yQsEwROBxB
+    NBGMyBUVPv0LoRYrYGeUYqAJpzv5Sh2aP3LQDpSwUOrYZuEJoMSpCcSbSucSu22+
+    BkfjSX6AkSP2P60DVzvtlzAja5SzPSBg69Y7k/Aps0RiwoRJpo8D+O1OQblxn2qV
+    TExa0Pc++XQd8aAPmA/Dhw6D2BcKORUaXB2Jfx0CnU7aLfFDXHSVg4f4m7rnnlUU
+    HNm1loewNJYS8STCQw/xDmVB+s1eaZ0PqirgUOxjqrTWHxhK6FsRFD4x4Yx0mGCV
+    yxEZpcMCAwEAAaNqMGgwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUF
+    BwMBMB8GA1UdIwQYMBaAFBKKb/mc9hsPDdfCJ98WrquEUJQLMCAGA1UdEQQZMBeC
+    FWxpYmFpcnRlcnJlLmxvY2FsaG9zdDANBgkqhkiG9w0BAQsFAAOCAYEAHy5p13Ya
+    7g1UI/XdS7Z+veTq9CKRgqcb4ZBoIF32r2aAL7s4aEt1Hq5pFzGQ248Va7vcoATT
+    7B48dGXJxkM7sWO185WVhTpANu2GsPeFi3SXwGXsQ98J9lI+ck/H1mELTxSkgGGG
+    xK4K+YaEmNUwkMDQtQYNBNrRVcxwmsU1FiOxO5EwGzt0vzuisb2ClPmbtSjsEVAM
+    nv8DoRtlbMVK9oF/ncXzMTEtKcEfgOwvki+r/WLpxPY7WUshhqA2B5iypZfFphqe
+    sX1yg2cCdoYhpz3HNKavfyD1tAZ3hwQdKNfbmShbbDFwyjEe0E7+swM5fmk7u8Qp
+    kq3FZGe+7eoDs+b0rLF+WCX3VPK0J79q+EHAoMpfgTs2CLkE5/eusHDtWx3qtC4n
+    +Bm+64BbZVWZoF1HtFw5M4Ags3xNK7swCOXuTtXuCT/th7QDEmsSsNOM2lUmE1Z+
+    TfMj+aZji9rdVhckcQ5bkAiDr/gKLJWHh1/9tNPSgz8A5VQMpap/3RmF
+    -----END CERTIFICATE-----
+
+  key.pem: |
+    -----BEGIN PRIVATE KEY-----
+    MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC9PXV9YN3E7rzk
+    2dI0LTy62yyVP7XIb4XPBupFwk1/ie8W0VYBBaUiuRUpRq/JT9G36tOskLBMETgc
+    QTQRjMgVFT79C6EWK2BnlGKgCac7+Uodmj9y0A6UsFDq2GbhCaDEqQnEm0rnErtt
+    vgZH40l+gJEj9j+tA1c77ZcwI2uUsz0gYOvWO5PwKbNEYsKESaaPA/jtTkG5cZ9q
+    lUxMWtD3Pvl0HfGgD5gPw4cOg9gXCjkVGlwdiX8dAp1O2i3xQ1x0lYOH+Ju6555V
+    FBzZtZaHsDSWEvEkwkMP8Q5lQfrNXmmdD6oq4FDsY6q01h8YSuhbERQ+MeGMdJhg
+    lcsRGaXDAgMBAAECggEBAJBZvDBaXnAlB/Otb9mbFDMYkqZ6RajR4QjtpnB16XW6
+    +qS2I9t9udyFv+2PXPG7sCaRustsRv6PN/Tdi+FDOTBT14tgfo0Ro2T/XEfldSqb
+    Wvy/t1xV9nlXETJCxh8sn/TDWI8fQgCHWm84v0PAzUPwwEXlRecsoDM3ZdczfZGb
+    4q/LMEnlNVaThsxk6V0Q3xpqcB+V02ETIrgGivSs68tGPBRZtP9g+gQLM8ucq+cs
+    BrgyZWaL3WXHFPF2XxlejdSFiyulf0spJPdKVeU+E+/x9DGJ10bhoG6p1bOB9gxz
+    3cYPwHkb9rDzy5EiwboHMfCY5zDvxRTdnU2+QKtteLkCgYEA72T2jh/CEFdWhd41
+    j1cV1MSuXSLi5Bp+sa7ZoHqt3rLkEEhr01skEOMGjw7jlvmOlsJ0ih/G5+LBBYQF
+    bwA1uVM40JGjoOZ1AiLUl6K8VoSXRxV4KHvhX5W+eRrznazN4uJNwnkcaFftZyCc
+    lkONkIzRWv/NMiWT87XNmFJRRz0CgYEAyl3h6y7VklipE4nz6yQDqAccorLeWI/a
+    3dJhr7mmGjbd0KygViyDi7JJGoUGC59xKt7/Cf5zOMtixIfwoFxdLKMNeuB+MCvQ
+    QXtncS8RK0BzokijTQWFhP1eXsv5hcpS1AkLHGuM0ZPCBn3r5Zuca7Y0/cHiJxxD
+    GjIQTcZtcP8CgYEAr+L3P47Xz5fLy0lrAqjSMmRbU7SpDTzmLvgvjzfzfTbkV45O
+    IpjJE9spW3xt/OPYPq4aX81fH8o7VSkdsONvlX0uthb7KOGJwIsEtXBsfgim+SQu
+    B1iVStxDeMkzinqHPpZU2XiQRZ2soGOWiNSTM0wzGW/uPFTdsma16p84dmUCgYEA
+    wCrq0ESHNxPOaumDoXVvq24leTLWBc+FjUOs1Aw9eYNEnFZxY6Odv1isJuzPUtYz
+    xvw/wCPLEtHAltRoYj+Tk0G7GUZ5ThEtECG5lzeU3De2FxNXT1rA8gsQRID6EFyS
+    zxtPW8udy56+jx+glUdyAK7kH1yv/2fNKOEFrnWRk80CgYBj7b2bMz6hk3/hLIFV
+    I5DxA9ArXPiN5LCv0/NzEJc6eEr2OMLvgAce1vVZ4GK6zgpX//b8D9jUDdEkSt07
+    mmiE035dC0+K2UwDgmsl49nwXs2pHRXlKeY1Gpmmt8Xvc8WHfkwXxo5DuLayixgT
+    7FKKjD7umVRgE6XO0UB3wtPBxQ==
+    -----END PRIVATE KEY-----

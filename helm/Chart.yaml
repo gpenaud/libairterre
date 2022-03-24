@@ -1,0 +1,24 @@
+apiVersion: v2
+appVersion: 0.1.0
+
+dependencies:
+  - condition: libairterre-database.enabled
+    name: libairterre-database
+    version: 0.1.0
+
+description: Libairterre is a spip website
+home: https://github.com/gpenaud
+icon: https://github.com/gpenaud/img/libairterre-logo.jpg
+
+keywords:
+  - application
+  - web
+  - http
+
+maintainers:
+  - email: guillaume.penaud@gmail.com
+    name: Guillaume Penaud
+
+name: libairterre-website
+
+version: 0.1.0

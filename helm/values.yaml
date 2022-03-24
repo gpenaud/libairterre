@@ -1,0 +1,14 @@
+
+name: libairterre-website
+replicaCount: 1
+image:
+  repository: libairterre
+  pullPolicy: IfNotPresent
+  tag: "1.0.0"
+
+database:
+  service_name: libairterre-database-service
+
+libairterre-database:
+  enabled: true
+  name: libairterre-database
